@@ -1,0 +1,9 @@
+<?php
+
+
+define("DATABASE", "esoftcar_abc-a");
+define("USERNAME", "root");
+define("PASSWORD", "891600909v");
+
+
+?>

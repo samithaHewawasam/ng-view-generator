@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Fauna One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fauna One'), local('FaunaOne-Regular'), url(cSd7NBXNFQWK4oX1706dYz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body{
+background-color:#fff;
+font-family: 'Fauna One', serif;
+margin:200px auto;
+}
+
+.esoftWrap{
+background-color:#f9f9f9;
+width:800px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+}
+
+
+    #custom-search-form {
+    margin:0;
+    margin-top: 5px;
+    padding: 0;
+    }
+    #custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    }
+    #custom-search-form button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .search-query:focus + button {
+    z-index: 3;
+    }
+    .search-query{
+    padding:20px 10px !important;
+    
+    }
+    .hGroup{
+    margin: 0 !important;
+    }
+    .hGroup li{
+    float:left;
+    display:inline;
+    }
+    h3{
+    text-align:center;
+    
+    }
+    .centerButton{
+    margin:0 0 0 350px;
+    }
+    .floatRight{
+    float:right;
+    }
+    
+    .container{
+    position:relative;
+    
+    }
+    .topDate{
+    
+    position:absolute;
+    top:10px;
+    right:100px;
+    }
+
+    paymentInstallments{
+    
+    position:absolute;
+    top:400px;
+    right:20px;
+    }

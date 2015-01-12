@@ -1,0 +1,248 @@
+<h4>Esoft Computer Studies [Pvt] Ltd.</h4><hr/>Cash Collection Summery Report   between 2014-01-01 and 2014-01-28
+<hr/>
+<br>
+<div align="left" class="span7" >
+<table cellspacing="0"  cellpadding="1"  class="table table-hover">
+  <tr>
+    <td>Division</td>
+    <td>Reg-Type</td>
+    <td>Collection Amount</td>
+  </tr><tr class="info">
+    <td colspan="3"><strong>O/L-A/L</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>AL-ICT</td>
+    <td align="right"><div class="text-right" >12,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>AL-ICT[REV]</td>
+    <td align="right"><div class="text-right" >8,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>ICT-YEAR-10</td>
+    <td align="right"><div class="text-right" >4,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>ICT-YEAR-11</td>
+    <td align="right"><div class="text-right" >1,200.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of O/L-A/L</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>BCS</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>BCS-CER</td>
+    <td align="right"><div class="text-right" >341,250.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BCS-CER[REV]</td>
+    <td align="right"><div class="text-right" >4,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BCS-DIP</td>
+    <td align="right"><div class="text-right" >150,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BCS-PGD</td>
+    <td align="right"><div class="text-right" >286,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BCS-PLUS</td>
+    <td align="right"><div class="text-right" >320,012.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of BCS</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>BIT</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-FIT</td>
+    <td align="right"><div class="text-right" >164,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-PLUS</td>
+    <td align="right"><div class="text-right" >597,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-PRJ[AD]-C#</td>
+    <td align="right"><div class="text-right" >34,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-PRJ[AD]-PHP</td>
+    <td align="right"><div class="text-right" >308,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-SEM1</td>
+    <td align="right"><div class="text-right" >332,800.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-SEM3</td>
+    <td align="right"><div class="text-right" >59,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>BIT-SEM5</td>
+    <td align="right"><div class="text-right" >35,900.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of BIT</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>BUSINESS-DIV</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>DIBM</td>
+    <td align="right"><div class="text-right" >155,075.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of BUSINESS-DIV</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>JOBORI</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>DIP-ACC</td>
+    <td align="right"><div class="text-right" >225,350.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>DISE</td>
+    <td align="right"><div class="text-right" >339,775.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>DIWE</td>
+    <td align="right"><div class="text-right" >275,600.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JAVA-IZ0-851</td>
+    <td align="right"><div class="text-right" >52,450.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-AD/EXCEL</td>
+    <td align="right"><div class="text-right" >6,300.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-ANDROIDJAVA</td>
+    <td align="right"><div class="text-right" >77,250.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-C++</td>
+    <td align="right"><div class="text-right" >6,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-CCNA</td>
+    <td align="right"><div class="text-right" >15,200.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-CWD-DESIGN</td>
+    <td align="right"><div class="text-right" >12,150.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-CWD-DEVELOP</td>
+    <td align="right"><div class="text-right" >18,350.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-DIP-GD</td>
+    <td align="right"><div class="text-right" >194,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-DIP-MUL</td>
+    <td align="right"><div class="text-right" >10,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-ENT-MOB/APP</td>
+    <td align="right"><div class="text-right" >81,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-H-001</td>
+    <td align="right"><div class="text-right" >27,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-H-002</td>
+    <td align="right"><div class="text-right" >18,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-H-003</td>
+    <td align="right"><div class="text-right" >115,800.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-ICDL</td>
+    <td align="right"><div class="text-right" >33,400.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-ISTQB</td>
+    <td align="right"><div class="text-right" >6,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>JOB-JAVA-BASIC</td>
+    <td align="right"><div class="text-right" >25,200.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>MCTS-70-511</td>
+    <td align="right"><div class="text-right" >102,500.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of JOBORI</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>ESOFT-DIP</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>DIP-ENGLISH</td>
+    <td align="right"><div class="text-right" >378,250.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>DITEC-INT</td>
+    <td align="right"><div class="text-right" >2,347,650.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>DUAL-DIP</td>
+    <td align="right"><div class="text-right" >39,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR2</td>
+    <td align="right"><div class="text-right" >600.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR3</td>
+    <td align="right"><div class="text-right" >2,100.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR4</td>
+    <td align="right"><div class="text-right" >2,400.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR5</td>
+    <td align="right"><div class="text-right" >1,600.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR6</td>
+    <td align="right"><div class="text-right" >1,800.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR8</td>
+    <td align="right"><div class="text-right" >4,500.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>EKIDS-YEAR9</td>
+    <td align="right"><div class="text-right" >2,800.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of ESOFT-DIP</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>HND</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>HND-BM</td>
+    <td align="right"><div class="text-right" >432,600.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>HND-COM</td>
+    <td align="right"><div class="text-right" >1,946,500.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of HND</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>LMU</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>LMU-T-BBA</td>
+    <td align="right"><div class="text-right" >2,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>LMU-T-BENG-SW</td>
+    <td align="right"><div class="text-right" >127,000.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>LMU-T-BSC-COM</td>
+    <td align="right"><div class="text-right" >480,000.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of LMU</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr class="info">
+    <td colspan="3"><strong>UOM</strong></td>
+  </tr><tr>
+    <td></td>
+    <td>UOM-SEM2</td>
+    <td align="right"><div class="text-right" >177,250.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>UOM-SEM3</td>
+    <td align="right"><div class="text-right" >75,225.00</div></td>
+  </tr><tr>
+    <td></td>
+    <td>UOM-SEM4</td>
+    <td align="right"><div class="text-right" >26,000.00</div></td>
+  </tr><tr><td colspan="2"  align="right" ><strong><div class="text-right" >Total of UOM</div></strong></td><td align="right"><div class="text-right" ><strong>3,069,987.00</strong></div></td></tr><tr><td colspan="2"><strong>Grand Total</strong></td><td align="right"><div class="text-right" ><strong>10,503,837.00</strong></div></td></tr></table> </div>

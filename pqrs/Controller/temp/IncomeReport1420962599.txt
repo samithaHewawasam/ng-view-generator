@@ -1,0 +1,1440 @@
+
+<br>
+<div align="left" class="divcon" >
+<h4>Cash Collection Report Colombo</h4><br/>Date of 2014-12-21 <br />
+<input id="DBcode" type="hidden" value="col-a"></input><h3>LKR</h3># - Today Registrations.
+<table cellspacing="0"  cellpadding="1"  class="table table-hover">
+        
+            <tr> <th class="topborder bottomborder"  width="7px"></th>
+                <th class="topborder bottomborder" align="left" width="70px">Date</th>
+                <th class="topborder bottomborder" align="left"width="95px">Reg. No.</th>
+                <th class="topborder bottomborder" align="left"  width="150px" >Student Name</th>
+
+                <th class="topborder bottomborder" align="left" width="120px">Course/Batch</th>
+			   <th class="topborder bottomborder" align="left" width="130px">ReciptNo</th>
+                <th class="topborder bottomborder"  align="right"width="80px" ><div  class="text-right" >Paid Amout</div></th>
+				<th class="topborder bottomborder" width="20px"></th>
+            </tr>
+<tr class="success">
+	<td> </td>
+    <td colspan="7"><strong>Cash Payments</strong></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Aaysha</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="927440121V" >COL/B-036842</a></td>
+                <td  align="left">S. I. Seshamany</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0133/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="788403097V" >COL/E-001162</a></td>
+                <td  align="left">A. M. H. L. S. Ekanayake.</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0122/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Aaysha Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>50000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>N.Praveen</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="931040227v" >COL/A-045422</a></td>
+                <td  align="left"> Farsad</td>
+                <td  align="left">BCS-DIP-S2</td>
+                <td  align="left">COL/A-0866/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >N.Praveen Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>10000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Niroshan  R S</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="957693261V" >COL/A-043901</a></td>
+                <td  align="left">K. Niroshani</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0785/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="896380885V" >COL/A-045103</a></td>
+                <td  align="left">G. D. U.  Rathnayake</td>
+                <td  align="left">BCS-PGD</td>
+                <td  align="left">COL/A-0796/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="931810642v" >COL/A-045105</a></td>
+                <td  align="left"> Siyam</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0802/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="928220478v" >COL/A-044524</a></td>
+                <td  align="left"> Durka</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0822/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="962682189V" >COL/A-045015</a></td>
+                <td  align="left"> Anfas</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0830/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="896311450v" >COL/A-044497</a></td>
+                <td  align="left"> Gallage</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0837/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="881661586V" >COL/A-044336</a></td>
+                <td  align="left">S. A. W Sharanga</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0855/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="910921711V" >COL/A-045209</a></td>
+                <td  align="left"> Fernando</td>
+                <td  align="left">UOM-SEM5</td>
+                <td  align="left">COL/A-0863/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="890881220V" >COL/A-045135</a></td>
+                <td  align="left"> Senanayake</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0870/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="965141898v" >COL/A-043553</a></td>
+                <td  align="left"> Selvakadirgamar</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0878/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="957782680v" >COL/A-044527</a></td>
+                <td  align="left"> Wijesekara</td>
+                <td  align="left">JOB-H-003</td>
+                <td  align="left">COL/A-0884/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="931780859V" >COL/A-045107</a></td>
+                <td  align="left"> Sandaru</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0803/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932921154V" >COL/A-044384</a></td>
+                <td  align="left">S. Abilash.</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0815/12/2014</td>
+                <td  align="right" ><div class="text-right" >8400.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="873602490v" >COL/A-043498</a></td>
+                <td  align="left"> Shiran Nazrin</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0823/12/2014</td>
+                <td  align="right" ><div class="text-right" >13000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="912774643V" >COL/A-043434</a></td>
+                <td  align="left">W. A. D. C. L. Wickramasinghe</td>
+                <td  align="left">BIT-SEM5</td>
+                <td  align="left">COL/A-0831/12/2014</td>
+                <td  align="right" ><div class="text-right" >4500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="911840790V" >COL/A-045116</a></td>
+                <td  align="left">P .D .K Gamage</td>
+                <td  align="left">UOM-SEM5</td>
+                <td  align="left">COL/A-0838/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="916621078V" >COL/A-045118</a></td>
+                <td  align="left"> Ajanthini</td>
+                <td  align="left">UOM-SEM5</td>
+                <td  align="left">COL/A-0843/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="908381149V" >COL/A-045119</a></td>
+                <td  align="left"> Karunarathna</td>
+                <td  align="left">UOM-SEM5</td>
+                <td  align="left">COL/A-0848/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="965222227V" >COL/A-045099</a></td>
+                <td  align="left">J. Kerlin</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0871/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="895952346V" >COL/A-044401</a></td>
+                <td  align="left">R. DINUSHA</td>
+                <td  align="left">BCS-DIP-S1</td>
+                <td  align="left">COL/A-0879/12/2014</td>
+                <td  align="right" ><div class="text-right" >2000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="950742763V" >COL/A-044671</a></td>
+                <td  align="left"> Perera</td>
+                <td  align="left">JOB-H-003</td>
+                <td  align="left">COL/A-0885/12/2014</td>
+                <td  align="right" ><div class="text-right" >3000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="897522632V" >COL/A-045121</a></td>
+                <td  align="left"> Mathotaarachchi</td>
+                <td  align="left">UOM-SEM5</td>
+                <td  align="left">COL/A-0892/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="920103715V" >COL/A-044237</a></td>
+                <td  align="left"> Pinnaduwa Hewa</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0787/12/2014</td>
+                <td  align="right" ><div class="text-right" >3000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="926733575V" >COL/A-044942</a></td>
+                <td  align="left">S .C .W Singhabahu</td>
+                <td  align="left">BIT-PROJECT-PHP</td>
+                <td  align="left">COL/A-0792/12/2014</td>
+                <td  align="right" ><div class="text-right" >3000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="916310684V" >COL/A-043528</a></td>
+                <td  align="left">D. C. Weerasekara</td>
+                <td  align="left">BIT-SEM3</td>
+                <td  align="left">COL/A-0804/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="933423107V" >COL/A-043577</a></td>
+                <td  align="left">H. Sama</td>
+                <td  align="left">JOB-DIP-GD</td>
+                <td  align="left">COL/A-0809/12/2014</td>
+                <td  align="right" ><div class="text-right" >6400.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="890832377V" >COL/A-043658</a></td>
+                <td  align="left">S. Kesavabalachandren</td>
+                <td  align="left">BIT-SEM1</td>
+                <td  align="left">COL/A-0832/12/2014</td>
+                <td  align="right" ><div class="text-right" >7000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941651968v" >COL/A-044852</a></td>
+                <td  align="left"> Pushparaj</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0839/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="903511028v" >COL/A-045101</a></td>
+                <td  align="left"> Ahamed </td>
+                <td  align="left">DISE</td>
+                <td  align="left">COL/A-0858/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="581582889v" >COL/A-045165</a></td>
+                <td  align="left"> Chrishraj</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0872/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="912520471V" >COL/A-045327</a></td>
+                <td  align="left"> Ambagawaththage</td>
+                <td  align="left">BCS-PGD-S1</td>
+                <td  align="left">COL/A-0880/12/2014</td>
+                <td  align="right" ><div class="text-right" >6000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941481540V" >COL/A-043900</a></td>
+                <td  align="left">N. K. Chinthana.</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0886/12/2014</td>
+                <td  align="right" ><div class="text-right" >1825.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="895473774V" >COL/A-044964</a></td>
+                <td  align="left">N.A. Thilini</td>
+                <td  align="left">BIT-SEM5</td>
+                <td  align="left">COL/A-0788/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932673517V" >COL/A-044966</a></td>
+                <td  align="left">M. S. Farook</td>
+                <td  align="left">BIT-SEM3</td>
+                <td  align="left">COL/A-0793/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="955150015v" >COL/A-045162</a></td>
+                <td  align="left"> Kumudu Kanchanamala</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0798/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="957501931v" >COL/A-043890</a></td>
+                <td  align="left"> Balendran</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0805/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941111840V" >COL/A-043740</a></td>
+                <td  align="left"> Harindranathan</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0810/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="943182620V" >COL/A-044975</a></td>
+                <td  align="left"> Kumar</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0824/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="957603220v" >COL/A-044549</a></td>
+                <td  align="left"> Vinukshika</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0865/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="887290407V" >COL/A-043358</a></td>
+                <td  align="left">W. M. Indunil Fonseka</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0873/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="711521437v" >COL/A-044803</a></td>
+                <td  align="left"> Umar</td>
+                <td  align="left">JOB-H-003</td>
+                <td  align="left">COL/A-0881/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="920802397v" >COL/A-043355</a></td>
+                <td  align="left"> Shimas</td>
+                <td  align="left">JOB-DIP-MUL</td>
+                <td  align="left">COL/A-0887/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="895473774V" >COL/A-045352</a></td>
+                <td  align="left">N.A. Thilini</td>
+                <td  align="left">BIT-PROJECT-PHP</td>
+                <td  align="left">COL/A-0789/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="951242748v" >COL/A-043312</a></td>
+                <td  align="left"> Grero</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0806/12/2014</td>
+                <td  align="right" ><div class="text-right" >3500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932970562v" >COL/A-045145</a></td>
+                <td  align="left"> Sahad</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0811/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="866740828V" >COL/A-043974</a></td>
+                <td  align="left">V. T.  Wasana</td>
+                <td  align="left">JOB-DIP-MUL</td>
+                <td  align="left">COL/A-0818/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="930660108v" >COL/A-044361</a></td>
+                <td  align="left"> Rukshan</td>
+                <td  align="left">DISE</td>
+                <td  align="left">COL/A-0825/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="892011990V" >COL/A-043500</a></td>
+                <td  align="left">P. Gopiharan</td>
+                <td  align="left">BIT-SEM5</td>
+                <td  align="left">COL/A-0844/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="952471961V" >COL/A-044318</a></td>
+                <td  align="left"> Zahid</td>
+                <td  align="left">DIP-ENGLISH</td>
+                <td  align="left">COL/A-0888/12/2014</td>
+                <td  align="right" ><div class="text-right" >4500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932740940V" >COL/A-045288</a></td>
+                <td  align="left"> Malinda</td>
+                <td  align="left">BIT-SEM1</td>
+                <td  align="left">COL/A-0794/12/2014</td>
+                <td  align="right" ><div class="text-right" >28000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="820100409v" >COL/A-045319</a></td>
+                <td  align="left"> Munasinghe</td>
+                <td  align="left">BIT-SEM1</td>
+                <td  align="left">COL/A-0799/12/2014</td>
+                <td  align="right" ><div class="text-right" >14000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="946700118V" >COL/A-043829</a></td>
+                <td  align="left">K. H. S. Silva</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0812/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="958020040v" >COL/A-044555</a></td>
+                <td  align="left"> Perera</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0819/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="956941458v" >COL/A-044851</a></td>
+                <td  align="left"> Silva</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0826/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="911212536v" >COL/A-044476</a></td>
+                <td  align="left">M. M.  Irfan</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0841/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="952903632v" >COL/A-045130</a></td>
+                <td  align="left"> Himash</td>
+                <td  align="left">DIP-ENGLISH</td>
+                <td  align="left">COL/A-0867/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="902390138v" >COL/A-043485</a></td>
+                <td  align="left"> Mahindrathna</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0875/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="736023253V" >COL/A-045109</a></td>
+                <td  align="left"> Wijesoma</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0800/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="951861367v" >COL/A-044457</a></td>
+                <td  align="left">A. Kumar</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0828/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="571680882v" >COL/A-043465</a></td>
+                <td  align="left"> Hassan</td>
+                <td  align="left">JOB-DIP-GD</td>
+                <td  align="left">COL/A-0853/12/2014</td>
+                <td  align="right" ><div class="text-right" >5750.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="892010501V" >COL/A-044796</a></td>
+                <td  align="left">K. D. D. N.  Amarasekara</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0868/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="960523261V" >COL/A-044672</a></td>
+                <td  align="left"> Dharshana</td>
+                <td  align="left">JOB-H-003</td>
+                <td  align="left">COL/A-0882/12/2014</td>
+                <td  align="right" ><div class="text-right" >3000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="936761330V" >COL/A-044883</a></td>
+                <td  align="left">T. Tharshika</td>
+                <td  align="left">BCS-PRJ-S1</td>
+                <td  align="left">COL/A-0890/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="958013949V" >COL/A-044592</a></td>
+                <td  align="left"> Perera</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0795/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="882080706v" >COL/A-045106</a></td>
+                <td  align="left"> Tissera</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0801/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="940014778V" >COL/A-043519</a></td>
+                <td  align="left">M. M. M. Ahamed</td>
+                <td  align="left">BIT-SEM3</td>
+                <td  align="left">COL/A-0808/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="860861020V" >COL/A-045368</a></td>
+                <td  align="left"> Peiris</td>
+                <td  align="left">HND-BM</td>
+                <td  align="left">COL/A-0821/12/2014</td>
+                <td  align="right" ><div class="text-right" >38000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941882870v" >COL/A-044662</a></td>
+                <td  align="left"> Nanayakkara</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0836/12/2014</td>
+                <td  align="right" ><div class="text-right" >11000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="955991664v" >COL/A-043693</a></td>
+                <td  align="left"> Bolonne</td>
+                <td  align="left">DITEC-INT</td>
+                <td  align="left">COL/A-0846/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="951321877v" >COL/A-044157</a></td>
+                <td  align="left"> M.S.M.Ishaq</td>
+                <td  align="left">DIP-ENGLISH</td>
+                <td  align="left">COL/A-0854/12/2014</td>
+                <td  align="right" ><div class="text-right" >1700.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="891014406v" >COL/A-044847</a></td>
+                <td  align="left"> Insath</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0862/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="950611774V" >COL/A-043562</a></td>
+                <td  align="left">K Saddurshan</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0877/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="955642783v" >COL/A-044526</a></td>
+                <td  align="left"> Deshathri Fernando</td>
+                <td  align="left">JOB-H-003</td>
+                <td  align="left">COL/A-0883/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="942870388V" >COL/A-044874</a></td>
+                <td  align="left">  Katugampala</td>
+                <td  align="left">BCS-PRJ-S1</td>
+                <td  align="left">COL/A-0891/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Niroshan  R S Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>519575.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Pavithra</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="908611527V" >COL/A-045414</a></td>
+                <td  align="left"> Shashikala</td>
+                <td  align="left">BIT-SEM5</td>
+                <td  align="left">COL/A-0814/12/2014</td>
+                <td  align="right" ><div class="text-right" >9000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="981561627V" >COL/A-045418</a></td>
+                <td  align="left"> Rikaz</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0847/12/2014</td>
+                <td  align="right" ><div class="text-right" >9500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="933602036V" >COL/A-045412</a></td>
+                <td  align="left"> Dissanayake</td>
+                <td  align="left">BIT-FIT</td>
+                <td  align="left">COL/A-0786/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="938221952V" >COL/A-045416</a></td>
+                <td  align="left"> Charumini</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0833/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932870355V" >COL/A-045423</a></td>
+                <td  align="left"> Jayasekara</td>
+                <td  align="left">BIT-SEM6</td>
+                <td  align="left">COL/A-0874/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="952650076v" >COL/A-045417</a></td>
+                <td  align="left"> Perera</td>
+                <td  align="left">BIT-FIT</td>
+                <td  align="left">COL/A-0835/12/2014</td>
+                <td  align="right" ><div class="text-right" >3000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="946453110V" >COL/A-045424</a></td>
+                <td  align="left"> Perera</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0889/12/2014</td>
+                <td  align="right" ><div class="text-right" >18375.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="903383739V" >COL/A-045415</a></td>
+                <td  align="left"> Jayakody</td>
+                <td  align="left">DIBM</td>
+                <td  align="left">COL/A-0829/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Pavithra Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>70875.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Shagilan</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="930170569v" >COL/A-043444</a></td>
+                <td  align="left"> Lakmal</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0119/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="870801670v" >COL/B-036836</a></td>
+                <td  align="left"> Balasooriya</td>
+                <td  align="left">LMU-T-BENG-SW</td>
+                <td  align="left">COL/E-0116/12/2014</td>
+                <td  align="right" ><div class="text-right" >50000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="917470596V" >COL/A-043970</a></td>
+                <td  align="left">K. A. D. K. C. Perera</td>
+                <td  align="left">HND-BM</td>
+                <td  align="left">COL/E-0114/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="930061760V" >COL/A-002129</a></td>
+                <td  align="left">M. S. S. Ahamed</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0117/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="862792440V" >COL/A-043964</a></td>
+                <td  align="left">G. A. I. Harischandra</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0111/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="921290837v" >COL/E-001134</a></td>
+                <td  align="left"> Sathyajith</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0115/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="973140086V" >COL/E-001217</a></td>
+                <td  align="left">M.F. Fawmy</td>
+                <td  align="left">HND-BM</td>
+                <td  align="left">COL/E-0118/12/2014</td>
+                <td  align="right" ><div class="text-right" >50000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="911062593v" >COL/A-041531</a></td>
+                <td  align="left">R. R. Munugoda</td>
+                <td  align="left">HND-BM</td>
+                <td  align="left">COL/E-0121/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Shagilan Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>172000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Thamali</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="771010016v" >COL/E-001219</a></td>
+                <td  align="left"> Mohamed</td>
+                <td  align="left">LMU-MBA</td>
+                <td  align="left">COL/E-0131/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941172024V" >COL/A-043428</a></td>
+                <td  align="left">M. R. M.  Sazeen</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0127/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="940951992V" >COL/A-043427</a></td>
+                <td  align="left">M. F. Rashard</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0128/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="777281380v" >COL/E-001218</a></td>
+                <td  align="left"> Jagoda</td>
+                <td  align="left">LMU-MBA</td>
+                <td  align="left">COL/E-0130/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="901561400V" >COL/E-001079</a></td>
+                <td  align="left">R. U. Gamage</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0124/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="872733817v" >COL/E-001195</a></td>
+                <td  align="left">S De Silva</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0129/12/2014</td>
+                <td  align="right" ><div class="text-right" >14000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Thamali Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>73000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>venuka</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="918063080V" >COL/A-045421</a></td>
+                <td  align="left">R. P. K. Gayashani</td>
+                <td  align="left">UOM-SEM4</td>
+                <td  align="left">COL/A-0864/12/2014</td>
+                <td  align="right" ><div class="text-right" >13000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="922560455v" >COL/A-045419</a></td>
+                <td  align="left"> Vivekaananthan</td>
+                <td  align="left">JAVA-IZ0-851</td>
+                <td  align="left">COL/A-0850/12/2014</td>
+                <td  align="right" ><div class="text-right" >15000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="870942893V" >COL/A-045420</a></td>
+                <td  align="left"> Priyadharshana</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0860/12/2014</td>
+                <td  align="right" ><div class="text-right" >9500.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >venuka Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>37500.00</strong> </div></td> <td ></td>
+  </tr><tr  align="right" >
+    <td colspan="5"></td>
+	
+
+		 <td class="text-success topborder"  ><div  class="text-right" >Cash Total LKR</div></td>
+		 	 <td class="text-success topborder" ><div  class="text-right" ><strong>932950.00</strong> </div></td><td ></td>
+  </tr><tr class="success">
+	<td> </td>
+    <td colspan="7"><strong>Cheque Payments</strong></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Niroshan  R S</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="902500219v" >COL/A-045062</a></td>
+                <td  align="left"> Nuwan</td>
+                <td  align="left">DIWE</td>
+                <td  align="left">COL/A-0790/12/2014</td>
+                <td  align="right" ><div class="text-right" >5865.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Niroshan  R S Cheque Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>5865.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Pavithra</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="937550596V" >COL/B-036853</a></td>
+                <td  align="left"> Mohamed Raseen</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/A-0859/12/2014</td>
+                <td  align="right" ><div class="text-right" >20000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Pavithra Cheque Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>20000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Shagilan</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="960282698V" >COL/A-043969</a></td>
+                <td  align="left">M. M Ali</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0120/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Shagilan Cheque Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>12000.00</strong> </div></td> <td ></td>
+  </tr><tr  align="right" >
+    <td colspan="5"></td>
+	
+
+		 <td class="text-success topborder"  ><div  class="text-right" >Cheque Total LKR</div></td>
+		 	 <td class="text-success topborder" ><div  class="text-right" ><strong>37865.00</strong> </div></td><td ></td>
+  </tr><tr class="success">
+	<td> </td>
+    <td colspan="7"><strong>Credit Card Payments</strong></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Aaysha</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="842682150V" >COL/E-001025</a></td>
+                <td  align="left"> Kaleel Rahuman</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0123/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Aaysha Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>25000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Niroshan  R S</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="891621744V" >COL/A-044334</a></td>
+                <td  align="left">S. I. N. Nawas</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0857/12/2014</td>
+                <td  align="right" ><div class="text-right" >5500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="910512056V" >COL/A-044850</a></td>
+                <td  align="left">D. L. M. Lecamwasam</td>
+                <td  align="left">UOM-SEM4</td>
+                <td  align="left">COL/A-0797/12/2014</td>
+                <td  align="right" ><div class="text-right" >5000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="910662503V" >COL/A-044976</a></td>
+                <td  align="left"> Edirisinghe</td>
+                <td  align="left">DISE</td>
+                <td  align="left">COL/A-0816/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="901861579V" >COL/A-044369</a></td>
+                <td  align="left">J. A. Martenstyn</td>
+                <td  align="left">BCS-PGD-S2</td>
+                <td  align="left">COL/A-0849/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="896451120V" >COL/A-043826</a></td>
+                <td  align="left">W. K. B. H. A. Fernando</td>
+                <td  align="left">BIT-SEM5</td>
+                <td  align="left">COL/A-0817/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941682952v" >COL/A-044434</a></td>
+                <td  align="left"> Cooray</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0840/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="821113962V" >COL/A-043463</a></td>
+                <td  align="left">K. S. Sampath</td>
+                <td  align="left">BCS-PGD</td>
+                <td  align="left">COL/A-0834/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="873633960v" >COL/A-044861</a></td>
+                <td  align="left"> Dunusinghe</td>
+                <td  align="left">BCS-DIP-S1</td>
+                <td  align="left">COL/A-0851/12/2014</td>
+                <td  align="right" ><div class="text-right" >4000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="883283864V" >COL/A-044982</a></td>
+                <td  align="left">M. H. E. Perera</td>
+                <td  align="left">BCS-PGD-S2</td>
+                <td  align="left">COL/A-0852/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="917680051V" >COL/A-045102</a></td>
+                <td  align="left"> Dissanayake</td>
+                <td  align="left">BIT-SEM1</td>
+                <td  align="left">COL/A-0813/12/2014</td>
+                <td  align="right" ><div class="text-right" >7000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="923261877v" >COL/A-044507</a></td>
+                <td  align="left"> Sandaruwan Herath</td>
+                <td  align="left">DIP-ACC</td>
+                <td  align="left">COL/A-0820/12/2014</td>
+                <td  align="right" ><div class="text-right" >4325.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="906420996V" >COL/A-044462</a></td>
+                <td  align="left">K. A. N.  Swarnamali</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0842/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="900420870V" >COL/A-044949</a></td>
+                <td  align="left">K. A. D. T. I. Kumarapeli</td>
+                <td  align="left">BIT-PROJECT-PHP</td>
+                <td  align="left">COL/A-0845/12/2014</td>
+                <td  align="right" ><div class="text-right" >8000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="941670121V" >COL/A-043505</a></td>
+                <td  align="left">L. N. Rathnayake</td>
+                <td  align="left">BCS-PGD</td>
+                <td  align="left">COL/A-0861/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="871432031V" >COL/A-044325</a></td>
+                <td  align="left">D. D. Senanayake</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">COL/A-0876/12/2014</td>
+                <td  align="right" ><div class="text-right" >8500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="777360337v" >COL/A-043937</a></td>
+                <td  align="left"> Thennakoon</td>
+                <td  align="left">BIT-SEM3</td>
+                <td  align="left">COL/A-0791/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="912440338V" >COL/A-045134</a></td>
+                <td  align="left"> Kamalasena</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/A-0869/12/2014</td>
+                <td  align="right" ><div class="text-right" >6500.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Niroshan  R S Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>129325.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Pavithra</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="947922548V" >COL/A-045413</a></td>
+                <td  align="left"> Sumaiya</td>
+                <td  align="left">BIT-FIT</td>
+                <td  align="left">COL/A-0807/12/2014</td>
+                <td  align="right" ><div class="text-right" >10000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Pavithra Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>10000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Shagilan</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="933151956V" >COL/A-043967</a></td>
+                <td  align="left">M.A.N. Ahamed</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0112/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="910072501V" >COL/A-043819</a></td>
+                <td  align="left">G. L. D. W.  Mendis</td>
+                <td  align="left">HND-COM</td>
+                <td  align="left">COL/E-0113/12/2014</td>
+                <td  align="right" ><div class="text-right" >12000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Shagilan Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>24000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>Thamali</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="861732762v" >COL/B-036833</a></td>
+                <td  align="left"> Athkorala</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0126/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="782720848V" >COL/E-001090</a></td>
+                <td  align="left"> Surandran</td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0132/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="802101058V" >COL/B-036825</a></td>
+                <td  align="left">A A Y Chathuranga </td>
+                <td  align="left">LMU-T-BSC-COM</td>
+                <td  align="left">COL/E-0125/12/2014</td>
+                <td  align="right" ><div class="text-right" >25000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >Thamali Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>75000.00</strong> </div></td> <td ></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="7"><strong>WEB</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="870592680v" >COL/A-045129</a></td>
+                <td  align="left"> Gunathilaka</td>
+                <td  align="left">BCS-CER</td>
+                <td  align="left">COL/W-0002/12/2014</td>
+                <td  align="right" ><div class="text-right" >13000.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="2"  align="right" ><div  class="text-right text-info" >WEB Credit Card Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>13000.00</strong> </div></td> <td ></td>
+  </tr><tr  align="right" >
+    <td colspan="5"></td>
+	
+
+		 <td class="text-success topborder"  ><div  class="text-right" >Credit Card Total LKR</div></td>
+		 	 <td class="text-success topborder" ><div  class="text-right" ><strong>276325.00</strong> </div></td><td ></td>
+  </tr>  <tr  align="right"> 
+ <td colspan="5" ></td>
+  
+
+		 <td class="topborder" > <strong>Grand Total LKR</strong></td>
+		 	 <td class="topborder" ><div  class="text-right" ><strong>1247140.00</strong> </div></td><td ></td>
+
+  </tr>
+
+    </table></div>
+<br>
+<div align="left" class="divcon" >
+<h4>Other Payment Collection Report Colombo</h4><br/>
+<input id="DBcode" type="hidden" value="col-a"></input><h3>LKR</h3># - Today Registrations.
+<table cellspacing="0"  cellpadding="1"  class="table table-hover">
+        
+            <tr> <th class="topborder bottomborder"  width="7px"></th>
+                <th class="topborder bottomborder" align="left" width="70px">Date</th>
+                <th class="topborder bottomborder" align="left"width="95px">Reg. No.</th>
+                <th class="topborder bottomborder" align="left"  width="150px" >Student Name</th>
+
+                <th class="topborder bottomborder" align="left" width="120px">Course/Batch</th>
+			   <th class="topborder bottomborder" align="left" width="130px">Comment</th>
+			   <th class="topborder bottomborder" align="left" width="130px">ReciptNo</th>
+                <th class="topborder bottomborder"  align="right"width="80px" ><div  class="text-right" >Paid Amout</div></th>
+				<th class="topborder bottomborder" width="20px"></th>
+            </tr>
+<tr class="success">
+	<td> </td>
+    <td colspan="8"><strong>Cash Payments</strong></td>
+  </tr><tr class="info">
+	<td> </td>
+    <td colspan="8"><strong>Niroshan  R S</strong></td>
+  </tr> <tr  > <td  align="left"></td>
+                <td  align="left" >2014-12-21</td>
+                <td  align="left"><a  class="View"  href="#view" data="932921154V" >COL/A-044384</a></td>
+                <td  align="left">S. Abilash.</td>
+                <td  align="left">BCS-DIP</td>
+                <td  align="left">Card replacement fee</td>
+                <td  align="left">0007/12/2014-COL/A</td>
+                <td  align="right" ><div class="text-right" >500.00</div></td>
+	           <td> </td>
+
+            </tr><tr  align="right" >
+          <td></td>
+        <td></td>
+		 <td></td>
+		 <td></td>
+		 <td colspan="3"  align="right" ><div  class="text-right text-info" >Niroshan  R S Cash Total LKR</div></td>
+		 	 <td class="text-info"><div  class="text-right" ><strong>500.00</strong> </div></td> <td ></td>
+  </tr><tr  align="right" >
+    <td colspan="6"></td>
+	
+
+		 <td class="text-success topborder"  ><div  class="text-right" >Cash Total LKR</div></td>
+		 	 <td class="text-success topborder" ><div  class="text-right" ><strong>500.00</strong> </div></td><td ></td>
+  </tr>  <tr  align="right"> 
+ <td colspan="6" ></td>
+  
+
+		 <td class="topborder" > <strong>Grand Total LKR</strong></td>
+		 	 <td class="topborder" ><div  class="text-right" ><strong>500.00</strong> </div></td><td ></td>
+
+  </tr>
+
+    </table></div>

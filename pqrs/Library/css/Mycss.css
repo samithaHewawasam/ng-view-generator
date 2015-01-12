@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+font-size: 11px;
+}
+fieldset {
+    padding: 3px;
+    margin: 3px;
+	border:#666666 thin solid;
+	border-radius: 6px;
+}
+legend {
+    display: block;
+    width: auto;
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(51, 51, 51);
+    border-width: 0px 0px 0px;
+    border-style: none none none;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(229, 229, 229);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+
+
+.table > tbody > tr > td{
+padding: 3px 0px 3px 20px;
+line-height: 15px;
+}
+.ash{background-color:#E5E5E5;}
+.strong{font-weight:bold; color:#2F344F;}
+#CommonFormTopic{ padding:5px;}
+.goto{cursor:pointer}

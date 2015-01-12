@@ -1,0 +1,3 @@
+<?php 
+$BranchCode='COL/A';
+?>
