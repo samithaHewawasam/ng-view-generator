@@ -1,1 +1,0 @@
-config file and some file in "Modal" folder in one step back as  ../Modal/config.php
