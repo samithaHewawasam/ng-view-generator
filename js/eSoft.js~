@@ -1,6 +1,57 @@
 $(document).ready(function () {
 
+//mouse leaving start...........
 
+$(document).mousemove(function( event ) {
+
+ $.ajax({
+
+         url: "../Controller/session.php",
+         dataType:'JSON',
+         success:function(res){
+           
+       if(res == false){
+
+           window.location = "../login.php";
+
+        }
+
+
+     }
+ 
+    });
+});
+
+//mouse leavig end........
+
+//sync start 
+
+var jqxhr = {abort: function () {}};
+
+var doSync = function (jqxhr) {
+	    
+		jqxhr.abort();
+       
+       jqxhr = $.ajax({
+
+            url: "../Controller/post.php",
+            dataType:'JSON',
+
+			success: function(res) {
+             
+             if(res['commitCode']){  
+			doSync(jqxhr);
+			
+		}
+			
+   	}
+        });
+};
+
+
+//sync end
+
+doSync(jqxhr);
 
 //To active inactive start
 
@@ -51,26 +102,7 @@ $('#toInactiveActive').click(function (event) {
 
 
 
-        function getClosestNum(num, ar) {
-            var i = 0,
-                closest, closestDiff, currentDiff;
-            if (ar.length) {
-                closest = ar[0];
-                for (i; i < ar.length; i++) {
-                    closestDiff = Math.abs(num - closest);
-                    currentDiff = Math.abs(num - ar[i]);
-                    if (currentDiff < closestDiff) {
-                        closest = ar[i];
-                    }
-                    closestDiff = null;
-                    currentDiff = null;
-                }
-                //returns first element that is closest to number
-                return closest;
-            }
-            //no length
-            return false;
-        }
+
 
 
 
@@ -852,7 +884,6 @@ function dueDateAndInsRoalBack() {
     var cdd = commenceDate.getDate();
 
     var eDate = $('#alreadyBatchSorting option:selected').attr('data-End-Date');
-
     var endDate = new Date(parseInt(eDate, 10));
     var eyy = endDate.getFullYear();
     var emm = endDate.getMonth();
@@ -876,7 +907,6 @@ function dueDateAndInsRoalBack() {
     if (insMethod == "Mon") {
 
         var commencingObjects = new Date(cDate);
-        var getendDate = new Date(eDate).getTime();
 
         for (var i = 1; i <= insCount; i++) {
             if (dueDate.getTime() >= commencingObjects.getTime()) {
@@ -1076,58 +1106,80 @@ function dueDateAndInsRoalBack() {
 
         }
 
-    }
-    var arrayDueDate = [];
-    $("#installmentsView td:nth-child(3)").each(function (index) {
 
-        var dueDate = $(this).text();
-        console.log(dueDate);
-        var putDueDate = new Date(dueDate).getTime();
-        arrayDueDate[index] = putDueDate;
-    });
+        var arrayDueDate = [];
+        $("#installmentsView td:nth-child(3)").each(function (index) {
+            var dueDate = $(this).text();
 
-
-    console.log(arrayDueDate);
-
-    var value = getClosestNum(getendDate, arrayDueDate);
-
-    console.log(getendDate);
-
-    insEndCount = arrayDueDate.indexOf(value) + 1;
-console.log(value);
-console.log(insEndCount);
-    var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
-    var INS = "INS";
-    var roalBackSize = insCount - insEndCount;
-
-    var roleBackArray = [];
-    for (var i = insEndCount + 1; i <= insCount; i++) {
-        var insRoleback = $("." + i + INS).text();
-        roleBackArray.push(insRoleback);
+            var putDueDate = new Date(dueDate).getTime();
+            arrayDueDate[index] = putDueDate;
+        });
 
 
-    }
+        function getClosestNum(num, ar) {
+            var i = 0,
+                closest, closestDiff, currentDiff;
+            if (ar.length) {
+                closest = ar[0];
+                for (i; i < ar.length; i++) {
+                    closestDiff = Math.abs(num - closest);
+                    currentDiff = Math.abs(num - ar[i]);
+                    if (currentDiff < closestDiff) {
+                        closest = ar[i];
+                    }
+                    closestDiff = null;
+                    currentDiff = null;
+                }
+                //returns first element that is closest to number
+                return closest;
+            }
+            //no length
+            return false;
+        }
 
-    var roleBacktotal = 0;
-    for (var i = 0; i < roleBackArray.length; i++) {
-        roleBacktotal += roleBackArray[i] << 0;
-    }
+
+        var value = getClosestNum(getendDate, arrayDueDate);
+        var sssssss = new Date(arrayDueDate);
 
 
 
-    var getInsAlready = $("." + insEndCount + INS).text();
-
-    $("." + insEndCount + INS).text((parseFloat(getInsAlready) + parseFloat(roleBacktotal)).toFixed(2));
+        insEndCount = arrayDueDate.indexOf(value) + 1;
 
 
-    $("#installmentsView td:nth-child(1)").each(function (index) {
-        var ins = $(this).text();
-        if (ins > insEndCount) {
+        var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
+        var INS = "INS";
+        var roalBackSize = insCount - insEndCount;
 
-            $(this).closest("tr").remove();
+        var roleBackArray = [];
+        for (var i = insEndCount + 1; i <= insCount; i++) {
+            var insRoleback = $("." + i + INS).text();
+            roleBackArray.push(insRoleback);
+
 
         }
-    });
+
+        var roleBacktotal = 0;
+        for (var i = 0; i < roleBackArray.length; i++) {
+            roleBacktotal += roleBackArray[i] << 0;
+        }
+
+
+
+        var getInsAlready = $("." + insEndCount + INS).text();
+
+        $("." + insEndCount + INS).text((parseFloat(getInsAlready) + parseFloat(roleBacktotal)).toFixed(2));
+
+
+        $("#installmentsView td:nth-child(1)").each(function (index) {
+            var ins = $(this).text();
+            if (ins > insEndCount) {
+
+                $(this).closest("tr").remove();
+
+            }
+        });
+    }
+
 
 }
 //due date and installment roalback function end
@@ -2249,7 +2301,6 @@ $("#FinalDiscountSelector").on('change', '#RG_FullPay_Dis_Amount_Select', functi
             var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 
              dueDateAndInsRoalBack();
-console.log(insEndCount);
 
 var freeStructureDisplanDiscount = parseInt($("#DP_Rate_Input").val(), 10);
 
@@ -2265,7 +2316,7 @@ var lastDiscount = finalAmount + freeStructureDisplanDiscount;
 
             var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 
-console.log(insEndCount);
+
             var i = parseInt(insEndCount) + 1;
 
             while (i--) {
@@ -2276,8 +2327,6 @@ console.log(insEndCount);
                 } else {
 
                     var amountByLastLast = parseFloat($('td.' + i + 'INS').text(), 10);
-console.log(amountByLastLast);
-console.log(lastDiscount);
 
                     if (lastDiscount >= amountByLastLast) {
                         var lastDiscount = lastDiscount - amountByLastLast;
