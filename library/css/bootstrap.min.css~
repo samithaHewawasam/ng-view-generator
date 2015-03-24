@@ -26,7 +26,7 @@ html {
 
 
 body { 
-  background: url(/images/bg1.png) no-repeat center center fixed; 
+  background-color: #362B27 !important; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
