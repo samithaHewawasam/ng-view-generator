@@ -1,23 +1,6 @@
 $(document).ready(function () {
 
 
-function doSync() {
-			    //sync part
-        $.ajax({
-
-            url: "../Controller/post.php",
-            dataType:'JSON',
-
-			complete: function(res) {
-                   
-			setTimeout(doSync,1000); 
-   			}
-        });
-}
-
-
- doSync();
-
 
 //To active inactive start
 
