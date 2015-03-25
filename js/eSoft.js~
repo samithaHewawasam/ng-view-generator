@@ -1257,7 +1257,7 @@ $("#RG_Stu_ID").val(IdNumber);
                 $('#mainAlert').show(function(){
                 $('#mainAlert').removeClass('alert alert-success');
 		$('#mainAlert').addClass('alert alert-error');
-                $("#mainAlertInfo").text("Student  info  has been  saved unsuccessfully.Maybe this user already been registered");
+                $("#mainAlertInfo").text(response.errorInfo);
 
 
 

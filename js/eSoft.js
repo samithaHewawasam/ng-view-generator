@@ -733,17 +733,6 @@ incheckFunction();
         //delete ins recode end
 
 
-$("#SM_Tell_Mobileq,#SM_Tell_Mobile,#SM_Tell_Work,#SM_Tel_Residance,#SM_Parent_Phone").keydown(function(event) {
-
-if(  $(this).val().length == 3 )
-       {
-            event.target.value = event.target.value + "-";
-       }
-
-
-});
-
-
         function getClosestNum(num, ar) {
             var i = 0,
                 closest, closestDiff, currentDiff;
