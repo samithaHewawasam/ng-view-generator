@@ -579,7 +579,7 @@ Country
 <div class="control-group">
  <label for="SM_Tell_Mobile" class="control-label">Mobile:</label>
     <div class="controls">
-      <input type="text" class="form-control" id="SM_Tell_Mobile" autocomplete="off" name="SM_Tell_Mobile" placeholder="Mobile" >
+      <input type="text" class="form-control" id="SM_Tell_Mobile" autocomplete="off" maxlength="10"  name="SM_Tell_Mobile" placeholder="Mobile" >
     </div>
   </div>
 
@@ -664,7 +664,7 @@ Country
 <div class="control-group">
  <label for="SM_Parent_Phone" class="control-label">Phone:</label>
     <div class="controls">
-      <input type="text" class="form-control" id="SM_Parent_Phone" autocomplete="off" name="SM_Parent_Phone"   placeholder="Phone">
+      <input type="text" class="form-control" id="SM_Parent_Phone" autocomplete="off" maxlength="10"  name="SM_Parent_Phone"   placeholder="Phone">
     </div>
   </div>
 
@@ -814,7 +814,7 @@ Country
 <div class="control-group">
  <label for="SM_Tell_Mobile" class="control-label">Mobile:</label>
     <div class="controls">
-      <input type="text" class="form-control" id="SM_Tell_Mobileq" maxlength="11" autocomplete="off" title="it should be valid mobile number" name="SM_Tell_Mobile" placeholder="Mobile" style="text-transform:uppercase">
+      <input type="text" class="form-control" id="SM_Tell_Mobileq" maxlength="10"  autocomplete="off" title="it should be valid mobile number" name="SM_Tell_Mobile" placeholder="Mobile" style="text-transform:uppercase">
     </div>
   </div>
 

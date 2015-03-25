@@ -40,8 +40,13 @@ if (isset($_GET['SM_Gender'])) {
 if (isset($_GET['SM_Date_of_Birth'])) {
     $SM_Date_of_Birth = $_GET['SM_Date_of_Birth'];
 }
-if (isset($_GET['SM_Tell_Mobile'])) {
+if (isset($_GET['SM_Tell_Mobile']) && strlen($_GET['SM_Tell_Mobile']) == 10) {
     $SM_Tell_Mobile = $_GET['SM_Tell_Mobile'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please check the length of mobile number', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
 if (isset($_GET['SM_Source'])) {
     $SM_Source = $_GET['SM_Source'];

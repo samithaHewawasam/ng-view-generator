@@ -587,7 +587,9 @@ Country
   <label for="SM_Gender" class="control-label"> How did you know about us?</label>
     <div class="controls">
       <select class="selectpicker" id="SM_Source" name="SM_Source">
-
+              <option value="">
+                 Please select the source
+                </option>
                 <option value="News Paper Ad">
                   News Paper Ad
                 </option>
@@ -607,7 +609,7 @@ Country
                  Invitation
                 </option>
                <option value="World of mouth">
-                 World of mouth
+                 Word of mouth
                 </option>
                <option value="Telemarketing">
                  Telemarketing
