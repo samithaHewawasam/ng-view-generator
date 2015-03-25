@@ -16,7 +16,6 @@ $SM_Status        = "";
 $SM_Operator      = $_SESSION['Sys_U_Name'];
 $SM_Reg_Date      = "";
 
-
 if (isset($_GET['SM_ID'])) {
     $SM_ID = $_GET['SM_ID'];
 }
