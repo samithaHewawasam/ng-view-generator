@@ -583,54 +583,6 @@ Country
     </div>
   </div>
 
- <div class="control-group">
-  <label for="SM_Gender" class="control-label"> How did you know about us?</label>
-    <div class="controls">
-      <select class="selectpicker" id="SM_Source" name="SM_Source">
-
-                <option value="News Paper Ad">
-                  News Paper Ad
-                </option>
-               <option value="Press Article">
-                 Press Article
-                </option>
-               <option value="Seminar/Event">
-                 Seminar/Event
-                </option>
-               <option value="Exhibition">
-                 Exhibition
-                </option>
-               <option value="School Presentation">
-                 School Presentation
-                </option>
-               <option value="Invitation">
-                 Invitation
-                </option>
-               <option value="World of mouth">
-                 World of mouth
-                </option>
-               <option value="Telemarketing">
-                 Telemarketing
-                </option>
-               <option value="Referral Scheme">
-                 Referral Scheme
-                </option>
-               <option value="Agent">
-                 Agent
-                </option>
-               <option value="Web/E-mail">
-                 Web/E-mail
-                </option>
-                <option value="Facebook">
-                Facebook
-                </option>
-                <option value="From Friend">
-                From Friend
-                </option>
-              </select>
-    </div>
-  </div>
-
 <div class="control-group">
  <label for="SM_Mail_Personal" class="control-label">E-Mail Personal:</label>
     <div class="controls">
@@ -813,54 +765,6 @@ Country
  <label for="SM_Tell_Mobile" class="control-label">Mobile:</label>
     <div class="controls">
       <input type="text" class="form-control" id="SM_Tell_Mobileq" maxlength="11" autocomplete="off" title="it should be valid mobile number" name="SM_Tell_Mobile" placeholder="Mobile" style="text-transform:uppercase">
-    </div>
-  </div>
-
- <div class="control-group">
-  <label for="SM_Gender" class="control-label"> How did you know about us?</label>
-    <div class="controls">
-      <select class="selectpicker" id="SM_Source" name="SM_Source">
-
-                <option value="News Paper Ad">
-                  News Paper Ad
-                </option>
-               <option value="Press Article">
-                 Press Article
-                </option>
-               <option value="Seminar/Event">
-                 Seminar/Event
-                </option>
-               <option value="Exhibition">
-                 Exhibition
-                </option>
-               <option value="School Presentation">
-                 School Presentation
-                </option>
-               <option value="Invitation">
-                 Invitation
-                </option>
-               <option value="World of mouth">
-                 World of mouth
-                </option>
-               <option value="Telemarketing">
-                 Telemarketing
-                </option>
-               <option value="Referral Scheme">
-                 Referral Scheme
-                </option>
-               <option value="Agent">
-                 Agent
-                </option>
-               <option value="Web/E-mail">
-                 Web/E-mail
-                </option>
-                <option value="Facebook">
-                Facebook
-                </option>
-                <option value="From Friend">
-                From Friend
-                </option>
-              </select>
     </div>
   </div>
 
