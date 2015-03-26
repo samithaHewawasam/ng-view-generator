@@ -16,9 +16,19 @@ $SM_Status        = "";
 $SM_Operator      = $_SESSION['Sys_U_Name'];
 $SM_Reg_Date      = "";
 
-if (isset($_GET['SM_ID'])) {
+if (isset($_GET['SM_ID']) && $_GET['SM_ID_Type'] != 'NIC') {
     $SM_ID = $_GET['SM_ID'];
+
+}elseif(isset($_GET['SM_ID']) && $_GET['SM_ID_Type'] == 'NIC' && strlen($_GET['SM_ID']) == 10){
+
+    $SM_ID = $_GET['SM_ID'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please Enter valid NIC number', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
+
 if (isset($_GET['SM_ID_Type'])) {
     $SM_ID_Type = $_GET['SM_ID_Type'];
 }
@@ -28,20 +38,45 @@ if (isset($_GET['SM_Branch_Code'])) {
 if (isset($_GET['SM_Title'])) {
     $SM_Title = $_GET['SM_Title'];
 }
-if (isset($_GET['SM_First_Name'])) {
+if (!empty($_GET['SM_First_Name']) && ctype_alpha(str_replace(array(' ', "."), '', $_GET['SM_First_Name']))) {
     $SM_First_Name = $_GET['SM_First_Name'];
+
+}else{
+
+echo json_encode(array('errorInfo' => 'Please Enter valid First Name', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
-if (isset($_GET['SM_Last_Name'])) {
+if (isset($_GET['SM_Last_Name']) && ctype_alpha(str_replace(array(' ', "."), '', $_GET['SM_Last_Name']))) {
     $SM_Last_Name = $_GET['SM_Last_Name'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please Enter valid Last Name', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
 if (isset($_GET['SM_Gender'])) {
     $SM_Gender = $_GET['SM_Gender'];
 }
-if (isset($_GET['SM_Date_of_Birth'])) {
+
+$getDateForBirth = explode('-', date("Y-m-d"));
+$getDateOfBirthArray = explode('-', $_GET['SM_Date_of_Birth']);
+
+if (isset($_GET['SM_Date_of_Birth']) && (($$getDateForBirth[0]-$getDateOfBirthArray[0]) >= 3)) {
     $SM_Date_of_Birth = $_GET['SM_Date_of_Birth'];
+}else{
+
+echo json_encode(array('errorInfo' => ($$getDateForBirth[0]-$getDateOfBirthArray[0]) >= 3, 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
-if (isset($_GET['SM_Tell_Mobile'])) {
+if (isset($_GET['SM_Tell_Mobile']) && strlen($_GET['SM_Tell_Mobile']) == 10 && ctype_digit($_GET['SM_Tell_Mobile'])) {
     $SM_Tell_Mobile = $_GET['SM_Tell_Mobile'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please check the length of mobile number Or Enter only numerics', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
 if (isset($_GET['SM_Source'])) {
     $SM_Source = $_GET['SM_Source'];

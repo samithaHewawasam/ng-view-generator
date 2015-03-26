@@ -1,5 +1,44 @@
 $(document).ready(function () {
 
+//Input validation
+
+$("#SM_Tell_Mobileq,#SM_Tell_Mobile,#SM_Tell_Work,#SM_Tel_Residance,#SM_Parent_Phone").keyup(function () {
+    if (!this.value.match(/[0-9]/)) {
+        this.value = this.value.replace(/[^0-9]/g, '');
+    }
+});
+
+
+//Input validation end
+
+//mouse leaving start...........
+
+
+
+$(document).mousemove(function( event ) {
+
+ $.ajax({
+         url: "../Controller/session.php",
+
+         dataType:'JSON',
+
+         success:function(res){
+
+       if(res == false){
+
+           window.location = "../login.php";
+
+        }
+
+     }
+
+    });
+
+});
+
+
+
+//mouse leavig end........
 
 function doSync() {
 			    //sync part
@@ -192,47 +231,71 @@ $("#AmountAccspting").val(' ');
 
 
 //Full Registration form start...........
-  $(document).on('click', '#StudentMasterSubmit', function (event) {
-   event.preventDefault();
 
-     var data = $("#student_master").serialize();
+ $("#StudentMasterSubmit").click(function (event) {
 
-     $.ajax({
+ $('#student_master').validate({ // initialize the plugin
+     rules: {
+         SM_ID: {
+             required: true,
+             maxlength: 10
+         },
+         SM_First_Name: {
+             required: true,
+             maxlength: 20
+         },
+         SM_Last_Name: {
+             required: true,
+             maxlength: 30
+         },
+         SM_Tell_Mobile: {
+             required: true,
+             maxlength: 10
+         }
+     },
+     submitHandler: function (form) {
 
-         url: "../Controller/fullRegistration.php",
-         type: "GET",
-         data: data,
-	 async: false,   
-         dataType: 'json',
-         success: function (response) {
+         var data = $("#student_master").serialize();
 
-		if(response.commitCode){
-                $("#searchNowForm").hide();
-                $(".alert-success").hide();
-                $("#QuickReg").modal('hide');
-                $('#mainAlert').show(function(){
-                $('#mainAlert').removeClass('alert alert-error');
-		$('#mainAlert').addClass('alert alert-success');
-                $("#mainAlertInfo").text("Student info has been  saved successfully");
-                $(".getLastRegId").click();
-		});
+         $.ajax({
 
-		}else{
+             url: "../Controller/fullRegistration.php",
+             type: "GET",
+             data: data,
+             async: false,
+             dataType: 'json',
+             success: function (response) {
 
-                $('#mainAlert').show(function(){
-                $('#mainAlert').removeClass('alert alert-success');
-		$('#mainAlert').addClass('alert alert-error');
-                $("#mainAlertInfo").text("Student  info  has been  saved unsuccessfully.Maybe this user already been registered");
+                 if (response.commitCode) {
+                     $("#searchNowForm").hide();
+                     $(".alert-success").hide();
+                     $("#QuickReg").modal('hide');
+                     $('#mainAlert').show(function () {
+                         $('#mainAlert').removeClass('alert alert-error');
+                         $('#mainAlert').addClass('alert alert-success');
+                         $("#mainAlertInfo").text("Student info has been  saved successfully");
+                         $(".getLastRegId").click();
+                     });
 
-		});
-              }
-            }
+                 } else {
+
+                     $('#mainAlert').show(function () {
+                         $('#mainAlert').removeClass('alert alert-success');
+                         $('#mainAlert').addClass('alert alert-error');
+                         $("#mainAlertInfo").text(response.errorInfo);
+
+                     });
+                 }
+             }
 
 
-     });
-            return false; 
+         });
+         return false;
 
+
+     }
  });
+});
  //Full registration form end...........
 
 
