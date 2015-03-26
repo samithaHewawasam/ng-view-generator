@@ -20,7 +20,7 @@ html {
 
 
 body { 
-  background-color: #362B27 !important; 
+  background: url('images/bg1.png'); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +42,7 @@ margin: 7px 10px;
 
 .center h2{
 color: #000;
-
+}
 	
 #notificationList{
     height:600px;
