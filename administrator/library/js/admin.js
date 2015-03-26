@@ -6,6 +6,8 @@ function AjaxFun(Url, Data) {
         data: Data
     });
 }
+
+
 //Table Row Delete Function
  function DeleteTableRow(){
 	$(".delete").click(function(){
