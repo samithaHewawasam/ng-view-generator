@@ -507,7 +507,7 @@ if(isset($_POST['SM_Gender'])){$SM_Gender = $_POST['SM_Gender'];}
 $getDateForBirth = explode('-', date("Y-m-d"));
 $getDateOfBirthArray = explode('-', $_POST['SM_Date_of_Birth']);
 
-if (isset($_GET['SM_Date_of_Birth']) && (($getDateForBirth[0]-$getDateOfBirthArray[0]) >= 3)) {
+if (isset($_POST['SM_Date_of_Birth']) && (($getDateForBirth[0]-$getDateOfBirthArray[0]) >= 3)) {
     $SM_Date_of_Birth = $_POST['SM_Date_of_Birth'];
 }else{
 
