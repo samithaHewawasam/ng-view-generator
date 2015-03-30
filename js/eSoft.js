@@ -165,26 +165,9 @@ $(document).on('click', '.detect-currency', function (event) {
 
       $('.payingCurrency').text($(this).attr('data-currency')); 
 
-
-      $.ajax({
-
-          url: "http://esoftholdings.com/rates.json?jsonCallback?",
-          type: "GET",
-          jsonpCallback: 'jsonCallback',
-          contentType: "application/json",
-          dataType: 'JSONP',
-          success: function (response) {
-
+   //response data are now in the result variable
               var rateCurrency = $.trim($.trim($('.accsepttingCurrency').text().substr(0,3)) + $.trim($('.payingCurrency').text().substr(0,3)));
 
-
-
-
-              $('#currencyJsonCallBack').val(response[rateCurrency]);
-
-          }
-
-      });
 
 
   });

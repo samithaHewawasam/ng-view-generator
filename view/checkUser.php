@@ -2254,7 +2254,7 @@ $(document).ready(function() {
  <div class="control-group">
 <div class="controls">
 <div class="input-prepend input-append">
-    <input class="span2" id="currencyJsonCallBack" value='1' type="hidden" readonly>
+   <input class="span2" id="currencyJsonCallBack" value='1' type="text" >
     </div>
 </div>
 </div>
