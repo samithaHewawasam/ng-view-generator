@@ -2399,7 +2399,7 @@ else{
             type: "GET",
             success: function (response) {
                 var RG_Branch_Code = $('#RG_Branch_Code_Session').val();
-                $("#RG_Reg_NO").val(RG_Branch_Code+'-'+response);
+                $("#RG_Reg_NO").val($.trim(RG_Branch_Code+'-'+$.trim(response)));
             }
 
 
