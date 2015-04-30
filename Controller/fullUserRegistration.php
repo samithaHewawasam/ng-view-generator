@@ -137,8 +137,8 @@ foreach ($getSubjects as $key => $array) {
 }
 
 $bind = array(
-    $RG_Branch_Code,
-    $RG_Reg_NO,
+    strtoupper($RG_Branch_Code),
+    strtoupper($RG_Reg_NO),
     $RG_Stu_ID,
     $RG_Reg_Type,
     $RG_Fee_Structure,

@@ -50,6 +50,7 @@ $curlObject = new curl('https://esoftholdings.com/updates/post.php', $getQueryAr
 
 $response = $curlObject->sendCurl();
 
+var_dump($response);
 
 #Update local sync log status....
 
