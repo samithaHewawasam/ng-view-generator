@@ -39,8 +39,7 @@ SUM(`payments_master`.`PM_Amount`) AS S,
 FROM
 payments_master 
 LEFT JOIN `registrations` ON `payments_master`.`RG_Reg_No`=`registrations`.`RG_Reg_NO`
-LEFT JOIN `registration_type` ON `registrations`.`RG_Reg_Type`=`registration_type`.`RT_Code` $where $subsql GROUP BY `registrations`.`RG_Reg_Type
-";
+LEFT JOIN `registration_type` ON `registrations`.`RG_Reg_Type`=`registration_type`.`RT_Code` $where $subsql GROUP BY `registrations`.`RG_Reg_Type`";
 
 $sth = $esoftConfig->prepare($sql);
 $sth->execute($data);
