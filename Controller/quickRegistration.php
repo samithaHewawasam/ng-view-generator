@@ -78,8 +78,13 @@ echo json_encode(array('errorInfo' => 'Please check the length of mobile number 
 exit();
 
 }
-if (isset($_GET['SM_Source'])) {
+if (!empty($_GET['SM_Source'])) {
     $SM_Source = $_GET['SM_Source'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please Enter the Source', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
 }
 if (isset($_GET['SM_Status'])) {
     $SM_Status = $_GET['SM_Status'];

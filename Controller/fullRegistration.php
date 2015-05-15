@@ -25,6 +25,7 @@ $SM_Mail_Work     = "";
 $SM_Use_Parent_ID = "";
 $SM_Parent_Name   = "";
 $SM_Parent_Phone  = "";
+$SM_Source        = "";
 $SM_Operator      = $_SESSION['Sys_U_Name'];
 $SM_Reg_Date      = "";
 
@@ -133,6 +134,14 @@ if (isset($_GET['SM_Parent_Phone'])) {
 if (isset($_GET['SM_Reg_Date'])) {
     $SM_Reg_Date = $_GET['SM_Reg_Date'];
 }
+if (!empty($_GET['SM_Source'])) {
+    $SM_Source = $_GET['SM_Source'];
+}else{
+
+echo json_encode(array('errorInfo' => 'Please Enter the Source', 'commitCode' => false, 'roalBackCode' => true));
+exit();
+
+}
 
 include("../Modal/dbLayer.php");
 
@@ -163,6 +172,7 @@ $bind = array(
     $SM_Parent_Name,
     $SM_Parent_Phone,
     "Active",
+    $SM_Source,
     $SM_Operator,
     $SM_Reg_Date
 );
@@ -170,7 +180,7 @@ $bind = array(
 
 $arguments = array(
     array(
-        'query' => "INSERT INTO student_master (SM_ID,SM_ID_Type,SM_Branch_Code,SM_Title,SM_Initials,SM_First_Name,SM_Last_Name,SM_Full_Name,SM_Gender,SM_Date_of_Birth,SM_House_NO,SM_Lane,SM_Town,SM_City,SM_Country,SM_Postal_Code,SM_Tel_Residance,SM_Tell_Work,SM_Tell_Mobile,SM_Mail_Personal,SM_Mail_Work,SM_Use_Parent_ID,SM_Parent_Name,SM_Parent_Phone,SM_Status,SM_Operator,SM_Reg_Date) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        'query' => "INSERT INTO student_master (SM_ID,SM_ID_Type,SM_Branch_Code,SM_Title,SM_Initials,SM_First_Name,SM_Last_Name,SM_Full_Name,SM_Gender,SM_Date_of_Birth,SM_House_NO,SM_Lane,SM_Town,SM_City,SM_Country,SM_Postal_Code,SM_Tel_Residance,SM_Tell_Work,SM_Tell_Mobile,SM_Mail_Personal,SM_Mail_Work,SM_Use_Parent_ID,SM_Parent_Name,SM_Parent_Phone,SM_Status,SM_Source,SM_Operator,SM_Reg_Date) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         'bind' => $bind
     ),
     array(
