@@ -48,8 +48,8 @@ function doSync() {
             dataType:'JSON',
 
 			complete: function(res) {
-                   
-			setTimeout(doSync,1000); 
+
+			setTimeout(doSync,1000);
    			}
         });
 }
@@ -74,7 +74,7 @@ $('#toInactiveActive').click(function (event) {
         dataType: 'JSON',
 
         success: function (res) {
-     
+
       if(res.commitCode){
 
                 $('#mainAlert').show(function(){
@@ -163,7 +163,7 @@ $('.currencySet').load( "../view/currency.html",function(){
 
 $(document).on('click', '.detect-currency', function (event) {
 
-      $('.payingCurrency').text($(this).attr('data-currency')); 
+      $('.payingCurrency').text($(this).attr('data-currency'));
 
    //response data are now in the result variable
               var rateCurrency = $.trim($.trim($('.accsepttingCurrency').text().substr(0,3)) + $.trim($('.payingCurrency').text().substr(0,3)));
@@ -177,7 +177,7 @@ $(document).on('click', '.detect-currency', function (event) {
 
 $(document).on('keyup', '#AmountPaying', function (event) {
 
-var getValue = $(this).val() / $('#currencyJsonCallBack').val(); 
+var getValue = $(this).val() / $('#currencyJsonCallBack').val();
 
 $('#AmountAccspting').val(getValue.toFixed(2));
 
@@ -200,7 +200,7 @@ $("#AmountAccspting").val(' ');
 
 // currency set end
 
-  
+
 
 
 //functions end
@@ -282,7 +282,7 @@ $("#AmountAccspting").val(' ');
  //Full registration form end...........
 
 
-//sync manuval 
+//sync manuval
 
 $(document).ready(function(){
 
@@ -305,7 +305,7 @@ $('#syncMenuClick').click(function(){
 
 //sync manual
 
-//sync start 
+//sync start
 
 function doSync() {
 			    //sync part
@@ -315,8 +315,8 @@ function doSync() {
             dataType:'JSON',
 
 			complete: function(res) {
-                   
-			setTimeout(doSync,4000); 
+
+			setTimeout(doSync,4000);
    			}
         });
 }
@@ -326,7 +326,7 @@ function doSync() {
 
 //doSync();
 
-$.fn.myValid = function() { 
+$.fn.myValid = function() {
   var check = new Array();
    $(this).find('.required').each(function(index) {
     if ($(this).val() === '') {
@@ -336,11 +336,11 @@ $.fn.myValid = function() {
                         check[index] = 'ok';
                         $(this).css("backgroundColor", "#FFFFFF");
                     }
-					
-	 
+
+
 
                 });
-				
+
 	  if (check.indexOf('no') > -1) {
                     return false;
                 }
@@ -357,10 +357,10 @@ $(document).on('click','.closeAlert',function(){
 $("#mainAlert").fadeOut();
 
 });
-	
-$('#SM_ID_KEEP').popover({ trigger: 'manual' }).focus(function(e){ 
+
+$('#SM_ID_KEEP').popover({ trigger: 'manual' }).focus(function(e){
 $("#CheckUserFormSubmit").popover('show');
-e.preventDefault(); 
+e.preventDefault();
 });
 
 $('#SM_ID_KEEP').keyup(function(){
@@ -373,7 +373,7 @@ function notification(){
 $.ajax({
 
         url: "../Modal/history.php",
-        async: false,   
+        async: false,
 	success: function(notification) {
 
          var CountSize = notification.filter(function(value) {
@@ -419,16 +419,16 @@ $.ajax({
 		}
 		$(this).parent().prev().toggle();
 		$(this).prev().toggle();
-		
+
 
    $.ajax({
 
         url: "../Controller/updateHistorySeen.php",
         type: "GET",
-        async: false,   
+        async: false,
         data: "id=" + $(this).closest('li').attr('data-notification'),
         success: function (response) {
-	
+
 	}
 
 });
@@ -442,8 +442,8 @@ return false;
 
 }
 notification();
-			
-							
+
+
        $(document).ajaxStart(function () {
     $("#loader").hide();
 
@@ -454,7 +454,7 @@ notification();
 
 //updateingSystemFiles start
 
-$(document).off("click", "#updateingSystemFilesCheck");	
+$(document).off("click", "#updateingSystemFilesCheck");
 $(document).on("click", "#updateingSystemFilesCheck", function() {
 
 $.ajax({
@@ -468,7 +468,7 @@ $.ajax({
 	success: function(res) {
        if(res){
 	$('#updateingSystemFiles').html(res);
-		
+
 	}
    	}
         });
@@ -479,7 +479,7 @@ $.ajax({
 
 //history log view
 
-$(document).off("click", "#historyView");	
+$(document).off("click", "#historyView");
 $(document).on("click", "#historyView", function() {
 
 $.ajax({
@@ -490,14 +490,14 @@ $.ajax({
 	success: function(res) {
        if(res){
 	$('#HistoryLogViewModal').html(res).modal('show');
-		
+
 	}
    	}
         });
 
  });
 
-$(document).off("click", "#freeSearchButton");	
+$(document).off("click", "#freeSearchButton");
 $(document).on("click", "#freeSearchButton", function() {
 
 $.ajax({
@@ -508,7 +508,7 @@ $.ajax({
 	success: function(res) {
        if(res){
 	$('#HistoryLogViewModal').html(res).modal('show');
-		
+
 	}
    	}
         });
@@ -525,7 +525,7 @@ $.ajax({
         $('.dp3').datepicker("setDate", new Date());
 
 
-//global varibles 
+//global varibles
 
 
 var numberRegex = /^[+-]?\d+(\.\d+)?([eE][+-]?\d+)?$/;
@@ -593,7 +593,7 @@ var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 function incheckFunction(){
 
 
-//paid column update 
+//paid column update
 
 var paidAmount = $('#RG_Total_Paid').val();
 
@@ -611,7 +611,7 @@ $('#installmentsView .info').each(function (index) {
         paidAmount -= paying;
     }
 
-$(this).closest("tr").find("td:nth-child(4)").text(paying);   
+$(this).closest("tr").find("td:nth-child(4)").text(paying);
 });
 
 //end
@@ -703,10 +703,10 @@ $("#insEditDataUpdate").on('click', function () {
 
 //installment edit data update end
 
-//add new installment start 
+//add new installment start
 $("#insEditRawAdd").off('click');
 $("#insEditRawAdd").on('click', function () {
- 
+
     //get ins count
     var insCountEditNew = [];
     $("#installmentsView tr td:first-child").each(function (index) {
@@ -725,11 +725,11 @@ $("#insEditRawAdd").on('click', function () {
     $("#installmentsView:last-child").append("<tr class='info'><td class=" + newInsNumber + "INSNO>" + newInsNumber + "</td><td class=" + newInsNumber + "INS>" + addNewInsAmount + "</td><td class=" + newInsNumber + "DUE>" + addNewInsDueDate + "</td><td class=" + newInsNumber + "PAID></td><td><button type='button'  class='btn btn-small btn-danger deleteIns'>Delete</button></td><td><button type='button'  class='btn btn-small btn-info editIns'>Edit</button></td></tr>");
 
 
- 
+
 
 incheckFunction();
 
- 
+
 
 
 });
@@ -758,7 +758,7 @@ incheckFunction();
                     return;
 
                 }
- 
+
                 $(this).closest("tr").remove();
 
                 $("#installmentsView tr td:first-child").each(function (index) {
@@ -793,10 +793,10 @@ incheckFunction();
                     closestDiff = null;
                     currentDiff = null;
                 }
-                
+
                 return closest;
             }
-            
+
             return false;
         }
 
@@ -839,7 +839,7 @@ if(schedules == ''){
          getDiff = ( 7 + name.indexOf(schedulesArray[a])) - weekday;
 
          var setDueDate = getNextDueDateForSchedules.setDate(getNextDueDateForSchedules.getDate() + getDiff);
-         var getSchedulesTimeObject = new Date(setDueDate);        
+         var getSchedulesTimeObject = new Date(setDueDate);
 	 var getschedulesTime = getSchedulesTimeObject.getTime();
          schedulesIntArray.push(getschedulesTime);
          s.push(getSchedulesTimeObject);
@@ -876,7 +876,7 @@ if(schedules == ''){
              if (dd < 10) {
                  dd = '0' + dd;
              }
-            
+
          return $('td.' + i + 'DUE').text(yy+'-'+mm+'-'+dd);
 
 
@@ -887,7 +887,7 @@ if(schedules == ''){
 
 var insEndCount;
 
-//due date and installment roalback function start 
+//due date and installment roalback function start
 
 function dueDateAndInsRoalBack() {
     //From course Type
@@ -1196,13 +1196,13 @@ $.ajax({
         data: "SM_ID=" + IdNumber,
         success: function (response) {
             if (typeof response.SM_Title != 'undefined') {
-				
+
 		$("#mainAlert").show(function(){
 
 $("#mainAlertInfo").text(response.SM_Title + " " + response.SM_Initials + " " + response.SM_First_Name + " " + response.SM_Last_Name);
 $("#RG_Stu_ID").val(IdNumber);
 });
-                
+
 
             } else {
 
@@ -1223,7 +1223,7 @@ $("#RG_Stu_ID").val(IdNumber);
 }
 
 
-//talling amount when enter by type start 
+//talling amount when enter by type start
 
 
 
@@ -1263,7 +1263,7 @@ $("#RG_Stu_ID").val(IdNumber);
                 maxlength: 11
             }
         },
-        submitHandler: function (form) { 
+        submitHandler: function (form) {
 
   var data = $("#quickRegistrationform").serialize();
 
@@ -1303,8 +1303,8 @@ $("#RG_Stu_ID").val(IdNumber);
 
 
         });
-            
-            return false; 
+
+            return false;
         }
     });
 
@@ -1322,7 +1322,7 @@ if($("#SM_ID_KEEP").val() == ""){
 alert("Why you are trying to search empty things ? may i exit ?");
 return true;
 }
- 
+
      event.preventDefault();
      var dataId = $("#CheckUserForm").serialize();
      var thisBranch = $('#RG_Branch_Code_Session').val();
@@ -1339,11 +1339,11 @@ return true;
 
          },
          success: function (response) {
-					 
+
 		if (typeof response.SM_Title != 'undefined') {
 
                  $(".alert-error").show();
-                 
+
 //first name or lastname doesn't with sever data
 
 if(response.SM_First_Name.length == 0 || response.SM_Last_Name.length == 0){
@@ -1352,7 +1352,7 @@ if(response.SM_First_Name.length == 0 || response.SM_Last_Name.length == 0){
 
                  $("#RG_Reg_NO").val(response.SM_Branch_Code || thisBranch + "-");
                  $("#RG_Stu_ID").val($("#SM_ID_KEEP").val());
-					
+
                  $(".alert-success").hide();
 
 }else{
@@ -1377,13 +1377,13 @@ if(response.SM_First_Name.length == 0 || response.SM_Last_Name.length == 0){
 				$('#mainAlertInfo').text("Please register the user "+ thisInputNumber);
 
                      $(".alert-error").hide();
-		     
+
                  });
 
 
              }
-					
-			 
+
+
 
          }
 
@@ -1409,7 +1409,7 @@ $(document).on('keyup', '#RG_Reg_NO', function (event) {
                 success: function (response) {
 
 		$('#mainAlert').show(function(){
-		
+
 		if(response == ' .Duplicate Registration No found in existing data'){
 		$('#mainAlert').removeClass('alert alert-success');
 		$('#mainAlert').addClass('alert alert-error');
@@ -1421,8 +1421,8 @@ $(document).on('keyup', '#RG_Reg_NO', function (event) {
 		 $('#mainAlertInfoSelected').html(response);
                 $('#CouserFinder').prop('disabled', false);
 		}
-		
-                
+
+
 
 		});
 
@@ -1434,7 +1434,7 @@ $(document).on('keyup', '#RG_Reg_NO', function (event) {
 
 //find dublicate entry for the registeration number end
 
-//registration type finder 
+//registration type finder
 $(document).off('change', '#CouserFinder');
 $(document).on('change', '#CouserFinder', function (event) {
 removeExistingDataFull();
@@ -1446,13 +1446,13 @@ $("#Installments").show();
 $("#fullPayInput").hide();
 
     var getIdNumber = $('#RG_Stu_ID').val().length;
-	
+
 	if(getIdNumber == 0) {
-		
+
 		alert("Please enter an ID Number");
 		$('#CouserFinder').prop('selectedIndex',0);
          return;
-		 
+
 	}
 
         var data = $('#CouserFinder option:selected').val();
@@ -1476,7 +1476,7 @@ $('#mainAlertInfoSelected').text(" You just selected " + data + " course ");
       $("#subjectsTableFirstTr").nextAll().remove();
       var data = $('#RegType option:selected').val();
 removeExistingDataFull();
-//fee structure form start 
+//fee structure form start
 
 $('#mainAlertInfoSelected').text(" You just selected " + data + " registration type ");
 
@@ -1516,10 +1516,10 @@ if(getFsCourseSelected == 0 ){
 }
              //discount plan  form start...........
               		$("#installmentsViewFirstTr").nextAll().remove();
-			$("#DP_Rate_Input").val(""); 
+			$("#DP_Rate_Input").val("");
 			$("#RG_Total_Fee").val("");
-			$("#RG_Dis_Comment").val(""); 
-			$("#RG_Total_Fee_Final").val("");  
+			$("#RG_Dis_Comment").val("");
+			$("#RG_Total_Fee_Final").val("");
 
                         var data = $('#fsCourseSet option:selected').val();
 
@@ -1544,7 +1544,7 @@ $('#mainAlertInfoSelected').text(" You just selected " + data + " course ");
          var INSNO = "INSNO";
          var INS = "INS";
          var DUE = 'DUE';
-	 
+
          var size = response.installment.filter(function(value) {
              return value !== undefined;
          }).length;
@@ -1568,11 +1568,11 @@ if (r==true)
  $("#RG_Total_Fee").val((response.netFee - response.regFee).toFixed(2));
 
  $(".1INS").text(parseFloat(($(".1INS").text() - response.regFee)).toFixed(2));
-  
+
   }
 else
   {
- 
+
   }
 
 });
@@ -1613,7 +1613,7 @@ var DT_Reg_Type = $("#RegType option:selected").val();
                          $("#RG_Dis_Comment").val("");
                          $("#RG_Total_Fee_Final").val("");
                          var data = $('#fsCourseSet option:selected').val();
-			
+
                          //registration fee start
                          $.ajax({
 
@@ -1667,7 +1667,7 @@ if(data != "special"){
                              alert("There are no discount changes for given plan");
 
                            }else{
-				
+
 			  if (response.DP_Type == "Percentage") {
                                 var discountRate =  response.DP_Rate / 100;
                                 var dicountForGrossFee = grossFee * discountRate;
@@ -1703,7 +1703,7 @@ var dicountForGrossFee =  parseInt($("#RG_discountRate_hidden").val(), 10);
        var dicountForGrossFee = dicountForGrossFee - amountByLast;
 
                                         $('td.' + i + 'INS').closest("tr").remove();
-					
+
 					$('td.' + i + 'INS').text(dicountForGrossFee.toFixed(2));
                                     } else {
 
@@ -1719,14 +1719,14 @@ var dicountForGrossFee =  parseInt($("#RG_discountRate_hidden").val(), 10);
 
 
 }
-                            
+
 }//success response end
 
 });//discount form end...........
   }else{
 $("#RG_Dis_Comment").addClass("errorInput");
 $("#RG_Dis_Comment").val("Please enter a comment!");
-	 
+
 $("#RG_Dis_Comment").keyup(function(){
 
 $(this).removeClass('errorInput');
@@ -1735,7 +1735,7 @@ $(this).removeClass('errorInput');
 
 //esc start
 
-$('#loginAuthentication').modal({ backdrop: 'static', keyboard: false }) 
+$('#loginAuthentication').modal({ backdrop: 'static', keyboard: false })
 
 //esc end
 $('.authCloseSpecial').off('click');
@@ -1864,7 +1864,7 @@ var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
        var specialDicount = specialDicount - amountByLast;
 
                                         $('td.' + i + 'INS').closest("tr").remove();
-					
+
 					$('td.' + i + 'INS').text(specialDicount.toFixed(2));
                                     } else {
  var specialDicount = amountByLast - specialDicount;
@@ -1881,7 +1881,7 @@ var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 
 }
 
-});   
+});
 
 
 
@@ -1918,7 +1918,7 @@ var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 
  });
 
-//fee structure form end 
+//fee structure form end
 
 //hidden course finder start
 $.ajax({
@@ -1998,21 +1998,21 @@ $.ajax({
                                 $(".selectedSubjects:checkbox").prop('checked', true).attr("disabled", true);
                                 $("#batchMasterSet").off('change', '#alreadyBatchSorting');
                                 $("#batchMasterSet").on('change', '#alreadyBatchSorting', function(event) {
-																								   
-																								   
+
+
                                     if ($("#nextCourse").is(":visible")) {
-                                        
+
                                     }else{
-									
+
 									$("#selectedSubjectsSession").nextAll().remove();
-									
+
 									}
                                     var selectedReg = $('#RegType').val();
                                     var selectedCouse = $('#CourseSet option:selected').val();
                                     var selectedBatch = $('#alreadyBatchSorting option:selected').val();
-									
+
 	$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");
-									
+
 var selectedBatchcDate = $('#alreadyBatchSorting option:selected').attr('data-commence-date');
 var selectedBatcheDate = $('#alreadyBatchSorting option:selected').attr('data-end-date');
 var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-ins-days');
@@ -2026,23 +2026,23 @@ var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-
                                 $("#batchMasterSet").off('change', '#alreadyBatchSorting');
                                 $("#batchMasterSet").on('change', '#alreadyBatchSorting', function(event) {
                                     var selectedBatch = $('#alreadyBatchSorting option:selected').val();
-									
-		$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");	
+
+		$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");
                                 });
-								
-			
-								
+
+
+
                                 $("#subjectsTable").off('change', '.selectedSubjects');
                                 $("#subjectsTable").on('change', '.selectedSubjects', function(event) {
-																							   
-																							   
+
+
                                     event.preventDefault();
                                     var selectedReg = $('#CouserFinder option:selected').val();
                                     var selectedCouse = $('#CourseSet option:selected').val();
                                     var selectedBatch = $('#alreadyBatchSorting option:selected').val();
-									
-	
-									
+
+
+
 var selectedBatchcDate = $('#alreadyBatchSorting option:selected').attr('data-commence-date');
 var selectedBatcheDate = $('#alreadyBatchSorting option:selected').attr('data-end-date');
 var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-ins-days');
@@ -2054,9 +2054,9 @@ var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-
                                         if ($(this).is(":checked")) {
                                             var indexChecked = $(this).closest("tr").attr("data-index");
                                             var selectedSCode = $(this).closest("tr").find(".selectedSCode").text();
-											
-		$('#mainAlertInfoSelected').text(" You just selected " + selectedSCode + " subject ");									
-											
+
+		$('#mainAlertInfoSelected').text(" You just selected " + selectedSCode + " subject ");
+
                                             $("#selectesSubjectsRecodes tr:last").after("<tr class='success' id=" + selectedCouse + selectedSCode + " data-index=" + indexChecked + "><td>" + selectedReg + "</td><td>" + selectedCouse + "</td><td>" + selectedSCode + "</td><td class='selectedBatch' data-ins-days=" + selectedBatchInsDays + " data-end-date=" + selectedBatcheDate + " data-commence-date=" + selectedBatchcDate + ">" + selectedBatch + "</td></tr>");
                                             $('[id]').each(function(i) {
                                                 var ids = $('[id="' + this.id + '"]');
@@ -2088,7 +2088,7 @@ var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-
 
 
                 });//course set change event end
-            }); 
+            });
         }
 else{
 
@@ -2153,17 +2153,17 @@ $.ajax({
                                 $(".selectedSubjects:checkbox").prop('checked', true).attr("disabled", true);
                                 $("#batchMasterSet").off('change', '#alreadyBatchSorting');
                                 $("#batchMasterSet").on('change', '#alreadyBatchSorting', function(event) {
-																								   
-																								   
+
+
                                     if ($("#CourseSet option").length <= 2) {
                                         $("#selectedSubjectsSession").nextAll().remove();
                                     }
                                     var selectedReg = $('#CouserFinder option:selected').val();
                                     var selectedCouse = $('#CourseSet option:selected').val();
                                     var selectedBatch = $('#alreadyBatchSorting option:selected').val();
-									
+
 	$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");
-	
+
 var selectedBatchcDate = $('#alreadyBatchSorting option:selected').attr('data-commence-date');
 var selectedBatcheDate = $('#alreadyBatchSorting option:selected').attr('data-end-date');
 var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-ins-days');
@@ -2176,17 +2176,17 @@ var selectedSCode = $(this).closest("tr").find(".selectedSCode").text();
                                 $("#batchMasterSet").off('change', '#alreadyBatchSorting');
                                 $("#batchMasterSet").on('change', '#alreadyBatchSorting', function(event) {
                                    var selectedBatch = $('#alreadyBatchSorting option:selected').val();
-								   
-			$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");  
+
+			$('#mainAlertInfoSelected').text(" You just selected " + selectedBatch + " batch ");
                                 });
-								
-		
-		
+
+
+
                                 $("#subjectsTable").off('change', '.selectedSubjects');
                                 $("#subjectsTable").on('change', '.selectedSubjects', function(event) {
                                     event.preventDefault();
-									
-									
+
+
                                     var selectedReg = $('#CouserFinder option:selected').val();
                                     var selectedCouse = $('#CourseSet option:selected').val();
                                     var selectedBatch = $('#alreadyBatchSorting option:selected').val();
@@ -2204,9 +2204,9 @@ var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-
                                         if ($(this).is(":checked")) {
                                             var indexChecked = $(this).closest("tr").attr("data-index");
                                             var selectedSCode = $(this).closest("tr").find(".selectedSCode").text();
-											
-		$('#mainAlertInfoSelected').text(" You just selected " + selectedSCode + " subject ");					
-		
+
+		$('#mainAlertInfoSelected').text(" You just selected " + selectedSCode + " subject ");
+
                                             $("#selectesSubjectsRecodes tr:last").after("<tr class='success' id=" + selectedCouse + selectedSCode + " data-index=" + indexChecked + "><td>" + selectedReg + "</td><td>" + selectedCouse + "</td><td>" + selectedSCode + "</td><td class='selectedBatch' data-ins-days=" + selectedBatchInsDays + " data-end-date=" + selectedBatcheDate + " data-commence-date=" + selectedBatchcDate + ">" + selectedBatch + "</td></tr>");
                                             $('[id]').each(function(i) {
                                                 var ids = $('[id="' + this.id + '"]');
@@ -2249,7 +2249,7 @@ var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-
 
 
 
-                  
+
 
 }
 
@@ -2313,7 +2313,7 @@ var lastDiscount = finalAmount;
 
 var lastDiscount = finalAmount + freeStructureDisplanDiscount;
 }
-      
+
 
             var insCount = $("#fsCourseSet option:selected").attr('data-installmentsCount');
 
@@ -2359,7 +2359,7 @@ console.log(lastDiscount);
 
 
 
-//wait i need your Id number start 
+//wait i need your Id number start
 
     $("#searchNow").click(function (event) {
 
@@ -2421,7 +2421,7 @@ var nullVlue = $("#CouserFinder").val();
 var disPlanCheck = $('#discountPlan option:selected').val();
 var getFsCourseSelected = $("#fsCourseSet option:selected").val();
 if(disPlanCheck == "special"){
-	  
+
 	 $("#RG_Dis_Comment").addClass("errorInput");
         var disCommentRestriced = $("#RG_Dis_Comment").val();
 
@@ -2429,9 +2429,9 @@ if(disPlanCheck == "special"){
 	 if(disCommentRestriced == "Please enter a comment!"){
         alert("Please enter a comment!");
          return;
-			 
+
 	}
-	 
+
 }
 
 		if(getFsCourseSelected == " " ){
@@ -2441,18 +2441,18 @@ if(disPlanCheck == "special"){
 		}
 
 
-	
+
 	var getEmptyId = $("#RG_Stu_ID").val();
-	
+
 		if(getEmptyId == 0) {
-		
+
 		alert("Please enter an ID Number");
          return;
 	}
-	
+
 	var getEmptyCourse = $("#CouserFinder option:selected").val();
 		if(getEmptyCourse == " ") {
-		
+
 		alert("Please select a course");
          return;
 	}
@@ -2469,7 +2469,7 @@ if(disPlanCheck == "special"){
 	var getEmptyCourse = $("#CouserFinder").val();
 
 		if(getEmptyCourse == " ") {
-		
+
 		alert("Please select a course");
          return;
 	}
@@ -2509,8 +2509,8 @@ if(nullVlue != " "){
     if ($('.fullPayYes').is(':checked')) {
 
         var RG_Final_Fee = parseFloat($("#RG_Total_Fee_Final").val());
-     
-     //set max attr for the cash and credit 
+
+     //set max attr for the cash and credit
 
      $("#PM_Amount_Cash").attr("max", RG_Final_Fee);
 
@@ -2521,7 +2521,7 @@ if(nullVlue != " "){
         $("#PM_Amount").val(parseFloat($(".1INS").text())).prop('disabled', true);
         var RG_Final_Fee = $('#RG_Total_Fee').val();
 
-    //set max attr for the cash and credit 
+    //set max attr for the cash and credit
 
      $("#PM_Amount_Cash").attr("max", parseFloat($(".1INS").text()));
 
@@ -2576,21 +2576,21 @@ studentRegisterArray.push({ name: "Default_Batch", value: $('#alreadyBatchSortin
 		var SI_Paid_Amount = $("#installmentsView").find('td.' + i + 'PAID').text();
                 var SI_Due_Date = $("#installmentsView").find('td.' + i + 'DUE').text();
                studentInstallmentsArray.push(i, SI_Ins_Amount , SI_Due_Date);
-      
+
              getInsTotal += parseFloat(SI_Ins_Amount);
 
             }
 
 
           if(RG_Final_Fee != getInsTotal){
-   
+
            alert("There is a problem with installment calculations");
 
          return true;
          }
 
 	 studentRegisterArray.push({ name : "installments", value: studentInstallmentsArray });
-		
+
             var studentSubjectsArray=[];
             var selectesSubjectsRecodes = $("#selectesSubjectsRecodes").find("tr").length;
             var realSubjectsSet = selectesSubjectsRecodes - 1;
@@ -2600,13 +2600,13 @@ studentRegisterArray.push({ name: "Default_Batch", value: $('#alreadyBatchSortin
                 var SS_Batch_No = $("#selectesSubjectsRecodes tr:nth-child(" + countSet + ") td:last").text();
 
  studentSubjectsArray.push(SS_Batch_No,SS_Subject);
-    
+
 
             }
 
             studentRegisterArray.push({ name : "subjects", value: studentSubjectsArray });
 
-    
+
 
     $.ajax({
 
@@ -2614,7 +2614,7 @@ studentRegisterArray.push({ name: "Default_Batch", value: $('#alreadyBatchSortin
         type: "GET",
         async: false,
         beforeSend: function () {
-         
+
      //saving........
 
    $("#mainAlertInfoSelected").html(" Your registration data is being saving...Please wait.<br><div class='progress progress-striped active'><div class='bar' style='width: 40%;'></div></div>");
@@ -2641,7 +2641,7 @@ $("#RG_Reg_NO").val(response.RG_Reg_NO);
                 $('#mainAlert').removeClass('alert alert-error');
 		$('#mainAlert').addClass('alert alert-success');
 		 $('#mainAlertInfoSelected').html(" This Registration successfully saved");
-               
+
 		}
 
 
@@ -2711,7 +2711,7 @@ if (response.indexOf('|') != -1) {
                 success: function (response) {
 
 		$('#mainAlert').show(function(){
-		
+
 		if(response == ' .Duplicate Registration No found in existing data'){
 		$('#mainAlert').removeClass('alert alert-success');
 		$('#mainAlert').addClass('alert alert-error');
@@ -2723,8 +2723,8 @@ if (response.indexOf('|') != -1) {
 		 $('#mainAlertInfoSelected').html(" This registration  doen't exists");
 
 		}
-		
-                
+
+
 
 		});
 
@@ -2789,7 +2789,7 @@ $("#mainAlert").show(function(){
                 }
 
                 var SM_ID = $("#idNumberPayment").val();
-                
+
                     $.ajax({
 
                         url: "../Controller/afterPaymentsUserDetails.php",
@@ -2819,7 +2819,7 @@ $("#mainAlert").show(function(){
 
                     });
 
-                //subjects 
+                //subjects
 
                 $.ajax({
 
@@ -2846,7 +2846,7 @@ $("#mainAlert").show(function(){
 
 
 
-                //afterPaymentsInstallment 
+                //afterPaymentsInstallment
 
                 $.ajax({
 
@@ -2870,10 +2870,10 @@ var paidUpto = [];
                                     break;
 
                                 } else {
-                                    
+
 				var dueDatelastInsBy = $("#" + i + "INSDUEDATE").text();
-				
-								
+
+
 var DatePay = new Date(dueDatelastInsBy).getTime();
 
 if(getTodayTime >= DatePay){
@@ -2884,21 +2884,21 @@ var getPaidAmountUpTo = $("#" + i + "INSPAIDAMOUNT").text();
 totleUpto.push(getUptoInsAmount);
 paidUpto.push(getPaidAmountUpTo);
 	}else{
-		
-	$("#uptoDateDue").val("You don't have any updo Date Due");	
-		
+
+	$("#uptoDateDue").val("You don't have any updo Date Due");
+
 		}
                                 }
                             }
-							
-							
-//totle updatodate Dues							
+
+
+//totle updatodate Dues
 var totalUpdateDateDues = 0;
 for (var i = 0; i < totleUpto.length; i++) {
     totalUpdateDateDues += totleUpto[i] << 0;
 }
 
-//totle updatodate Dues							
+//totle updatodate Dues
 var paidUpToTotal = 0;
 for (var i = 0; i < paidUpto.length; i++) {
     paidUpToTotal += paidUpto[i] << 0;
@@ -2980,7 +2980,7 @@ $(document).on('click', "#initialsPaymentsDataSubmit", function (event) {
     var RG_Date = $('#RG_Date').val();
     $('#RG_Date_initial_payments').val(RG_Date);
 
-   
+
     var RG_Reg_N0 = $("#RG_Reg_NO").val();
     var PM_Operator = $('#RG_Operator_Session').val();
 
@@ -2996,7 +2996,7 @@ $(document).on('click', "#initialsPaymentsDataSubmit", function (event) {
     var threeTypeAmountReg = a + b + c;
 
 //excess start
-        
+
 
   $.ajax({
 
@@ -3020,9 +3020,9 @@ goExcessReg =true;
 			}
 
 			if(excessAmount != 0){
-			
+
 			goExcessReg = confirm("There is " + excessAmount + " an excess amount, Is this OK? ");
-    			
+
 			}
 
 
@@ -3083,7 +3083,7 @@ value: currencyRate
                 $('#printPdf').modal();
 
                 $("#modal-body-print").attr("src", "../Controller/print.php");
-               
+
                     $("#mainAlertInfoSelected").html(", Please print <i class='icon-print'></i> this receipt");
 
 
@@ -3091,11 +3091,11 @@ value: currencyRate
                     $("#paymentArea input[type=text]").val(" ");
                     $("#modal-body-print").removeAttr("src");
                     $("#mainAlertInfoSelected").html(",Everything's Okay! <i class='icon-ok'></i> .Thank you!");
-                    $('#mainAlertInfoSelected').after().html("<a class='btn btn-small btn-block btn-warnning' target='_blank' href="+response.string+"><em class='icon-fire icon-white'></em>Get the PDf</a>"); 
+                    $('#mainAlertInfoSelected').after().html("<a class='btn btn-small btn-block btn-warnning' target='_blank' href="+response.string+"><em class='icon-fire icon-white'></em>Get the PDf</a>");
 
                 });
 
-              
+
 
             }
 
@@ -3300,7 +3300,7 @@ value: currencyRate
         beforeSend: function () {
 
             //saving........
-	
+
 
 
             $("#mainAlertInfoSelected").html(" Your payment data is being saving...Please wait.<br><div class='progress progress-striped active'><div class='bar' style='width: 40%;'></div></div>");
@@ -3352,7 +3352,7 @@ $("#currencyJsonCallBack").val(1);
 
 });
 
-//quick payments start 
+//quick payments start
 
 $("#QuickPayment").click(function (event) {
 
@@ -3377,7 +3377,7 @@ $("#QuickPayment").click(function (event) {
     });
 
 
-//reg no or id number serch 
+//reg no or id number serch
 
 $("#QuickregNoPayments").keyup(function (event) {
 
@@ -3449,16 +3449,16 @@ if (response.indexOf('|') != -1) {
             type: "GET",
             data: "RG_Reg_NO=" + data,
             success: function (response) {
-				
+
                 if (!response) {
-					
+
                     $("#QuickbalanceDuePayment").val("Data not provide");
                     $("#QuickuptoDateDue").val("Data not provide");
 
                 } else {
 
                     $("#QuickbalanceDuePayment").val((response.RG_Final_Fee - response.RG_Total_Paid).toFixed(2));
-                
+
 
                 }
 
@@ -3473,21 +3473,21 @@ if(response){
                             if (response) {
 
                                 $("#QuickregisterUserForPrint").val(response.SM_Title + " " +response.SM_First_Name + " " + response.SM_Last_Name);
-                           
+
 $("#mainAlert").show(function(){
  $("#mainAlertInfo").html(response.SM_Title + " " +response.SM_First_Name + " " + response.SM_Last_Name);
 
     });
 
 
-   
+
                             }
 
                         }
 
                     });
 
-                //subjects 
+                //subjects
 
                 $.ajax({
 
@@ -3532,10 +3532,10 @@ var paidUpto = [];
                                     break;
 
                                 } else {
-                                    
+
 				var dueDatelastInsBy = $("#" + i + "INSDUEDATE").text();
-				
-								
+
+
 var DatePay = new Date(dueDatelastInsBy).getTime();
 
 if(getTodayTime >= DatePay){
@@ -3546,21 +3546,21 @@ var getPaidAmountUpTo = $("#" + i + "INSPAIDAMOUNT").text();
 totleUpto.push(getUptoInsAmount);
 paidUpto.push(getPaidAmountUpTo);
 	}else{
-		
-	$("#QuickuptoDateDue").val("You don't have any updo Date Due");	
-		
+
+	$("#QuickuptoDateDue").val("You don't have any updo Date Due");
+
 		}
                                 }
                             }
-							
-							
-//totle updatodate Dues							
+
+
+//totle updatodate Dues
 var totalUpdateDateDues = 0;
 for (var i = 0; i < totleUpto.length; i++) {
     totalUpdateDateDues += totleUpto[i] << 0;
 }
 
-//totle updatodate Dues							
+//totle updatodate Dues
 var paidUpToTotal = 0;
 for (var i = 0; i < paidUpto.length; i++) {
     paidUpToTotal += paidUpto[i] << 0;
@@ -3645,7 +3645,7 @@ var QuickPM_Amount_Cash = +$("#QuickPM_Amount_Cash").val();
 var QuickPM_Amount_credit = +$("#QuickPM_Amount_credit").val();
 var QuickPM_Amount_Cheque = +$("#QuickPM_Amount_Cheque").val();
 
-	
+
   $.ajax({
 
             url: "../Controller/checkExcess.php",
@@ -3671,9 +3671,9 @@ var QuickPM_Amount_Cheque = +$("#QuickPM_Amount_Cheque").val();
 			}
 
 			if(excessAmount != 0){
-			
+
 			goExcessReg = confirm("There is " + excessAmount + " an excess amount, Is this OK? ");
-    			
+
 			}
 
 
@@ -3725,7 +3725,7 @@ $('#mainAlert').show(function(){
 
             if (!response.commitCode) {
 
-      
+
                 $('#mainAlert').removeClass('alert alert-success');
                 $('#mainAlert').addClass('alert alert-error');
                 $("#mainAlertInfoSelected").html(response.errorInfo);
@@ -3764,7 +3764,7 @@ $('#mainAlert').show(function(){
 
                 }//go excess end
 
-     
+
 });
 //quick payment end
 
@@ -3774,13 +3774,13 @@ $('#mainAlert').show(function(){
 
  });
     //getLastInvoiceNumber
-//quick paymnets end 
+//quick paymnets end
 
 //checked yesterday backup is done
 
  $(document).off('click', '#yesIsynced');
  $(document).on('click', '#yesIsynced', function (event) {
-	
+
 	event.preventDefault();
 
 $("#syncedStuts").html("");
@@ -3796,7 +3796,7 @@ $("#syncedStuts").html("");
 
 
 });
-	
+
 	    //Synchronizing Content start..............
  $(document).off('click', '#syncMe');
     $(document).on('click', '#syncMe', function (event) {
@@ -3823,19 +3823,19 @@ $("#syncedStuts").html("");
 });
 
 
-//Edit Registration start 
+//Edit Registration start
 
 
  $(document).off('click', '#regEditSearch');
  $(document).on('click', '#regEditSearch', function (event) {
-        
+
         event.preventDefault();
  var RegEditData = $("#regEditSearchForm").serialize();
         $.ajax({
 
             url: "../Controller/editRegistration.php",
             type: "GET",
-            async: false,  
+            async: false,
             data: RegEditData,
             success: function (response) {
 
@@ -3854,7 +3854,7 @@ event.preventDefault();
 $.ajax({
 
             url: "../Controller/editRegistrationComment.php",
-            async: false, 
+            async: false,
             type: "GET",
 	    beforeSend: function () {
 
@@ -3895,7 +3895,7 @@ if(parseFloat(response['regInfo'][0].RG_Final_Fee) <= parseFloat(response['regIn
  //$(".fullPayYes").prop('checked', true);
  //$(".fullPayNo").prop('disabled', true);
 
-var percentageFull = (parseFloat(response['regInfo'][0].RG_Final_Fee) + parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount)).toFixed(2) /parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount); 
+var percentageFull = (parseFloat(response['regInfo'][0].RG_Final_Fee) + parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount)).toFixed(2) /parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount);
 
 $("#RG_FullPay_Dis_Amount_Select").val(percentageFull);
 
@@ -3910,7 +3910,7 @@ $("#RG_Total_Fee_Final").val(response['regInfo'][0].RG_Final_Fee);
 //$("#fullPayInput").show();
 //});
 
-var percentageFull = (parseFloat(response['regInfo'][0].RG_Final_Fee) + parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount)).toFixed(2) /parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount); 
+var percentageFull = (parseFloat(response['regInfo'][0].RG_Final_Fee) + parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount)).toFixed(2) /parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount);
 
 $("#RG_FullPay_Dis_Amount_Select").val(percentageFull);
 
@@ -3918,13 +3918,13 @@ $("#RG_Total_Fee_Final").val(response['regInfo'][0].RG_Final_Fee);
 
 }
 
-//////////////Set FullPay Yes No End /////////////// 
+//////////////Set FullPay Yes No End ///////////////
 
-	deleteIns();	
+	deleteIns();
 
 	$("#RegTypeSelectList").html("<select name='CT_Type_Code' id='RegType'><option value"+response['regInfo'][0].RG_Reg_Type+">"+ response['regInfo'][0].RG_Reg_Type+"</option></select>");
-        
- //edit batch sorting start 
+
+ //edit batch sorting start
 
         $.ajax({
 
@@ -3942,7 +3942,7 @@ $("#RG_Total_Fee_Final").val(response['regInfo'][0].RG_Final_Fee);
             }
 
 });
-//edit batch sorting end 
+//edit batch sorting end
 
 
 
@@ -4005,8 +4005,8 @@ $("#subjectsTable").on('change', '.selectedSubjects', function (event) {
     var selectedBatcheDate = $('#alreadyBatchSorting option:selected').attr('data-end-date');
     var selectedBatchInsDays = $('#alreadyBatchSorting option:selected').attr('data-ins-days');
 
-    
-        
+
+
         if ($(this).is(":checked")) {
             var indexChecked = $(this).closest("tr").attr("data-index");
             var selectedSCode = $(this).closest("tr").find(".selectedSCode").text();
@@ -4025,7 +4025,7 @@ $("#subjectsTable").on('change', '.selectedSubjects', function (event) {
             var findRow = $("#selectesSubjectsRecodes tr[data-index='" + indexAdded + "']");
             findRow.remove();
         }
-   
+
 });
 
 //select subjects end
@@ -4050,13 +4050,13 @@ $(".selectedBatch").each(function(index){
     var $that = $(this);
     var batchCode = $that.text();
 
-//edit batch attr start 
+//edit batch attr start
 
         $.ajax({
 
             url: "../Controller/getBatchAttr.php",
             type: "GET",
-            async: false, 
+            async: false,
             data: {BM_Course_Code: batchCode},
 	    success:function(resBatch){
 
@@ -4070,11 +4070,11 @@ $that.attr("data-ins-days",resBatch.BM_Ins_Days);
             }
 
 });
-//edit batch attr end 
+//edit batch attr end
 
 });
 
-//fee structure start 
+//fee structure start
 
 $.ajax({
 
@@ -4112,24 +4112,24 @@ $.ajax({
                 $("#discountPlanSet").html(respo);
                $("#discountPlan").val(response['regInfo'][0].RG_Discount_Plan);
 		}
-		
+
 
 });
 
 //discount plan,Reg Fee,Gross fee end
 
-//discount comment start 
+//discount comment start
 
 $("#RG_Dis_Comment").val(response['regInfo'][0].RG_Dis_Comment);
 $("#RG_Reg_Fee").val(response['regInfo'][0].RG_Reg_Fee);
 $("#FS_Price").val(response['regInfo'][0].FS_Price);
 $("#FS_Price").val(response['regInfo'][0].RG_Total_Fee);
-$("#DP_Rate_Input").val(response['regInfo'][0].RG_Dis_Amount); 
+$("#DP_Rate_Input").val(response['regInfo'][0].RG_Dis_Amount);
 $("#RG_Total_Fee").val((parseFloat(response['regInfo'][0].RG_Final_Fee) + parseFloat(response['regInfo'][0].RG_FullPay_Dis_Amount)).toFixed(2));
-$("#RG_Total_Paid").val(response['regInfo'][0].RG_Total_Paid); 
+$("#RG_Total_Paid").val(response['regInfo'][0].RG_Total_Paid);
 regTotalPaidAmount = response['regInfo'][0].RG_Total_Paid;
 
-//discount plan,Reg Fee,Gross fee end 
+//discount plan,Reg Fee,Gross fee end
 
 
 
@@ -4264,7 +4264,7 @@ $("#mainAlertInfoSelected").html(" You just selected " +data+	" discount Plan.We
 
                                      }); //discount form end...........
                                  } else {
-                                    
+
 
                                      $("#loginAuthentication").modal();
 
@@ -4299,7 +4299,7 @@ $("#mainAlertInfoSelected").html(" You just selected " +data+	" discount Plan.We
 					     async:false,
                                              data: "userNameSpecial=" + username + "&passWordSpecial=" + password,
                                              success: function (response) {
-						
+
 						if(response == false){
 						alert("Try again");
 						return;
@@ -4431,7 +4431,7 @@ if ($('#discount_from_admin_value').is(':checked')) {
 
 
 
-//installment start 
+//installment start
 
   $.ajax({
 
@@ -4440,7 +4440,7 @@ if ($('#discount_from_admin_value').is(':checked')) {
                     async: false,
                     data: "RG_Reg_NO=" + response['regInfo'][0].RG_Reg_NO,
                     success: function (response) {
-    
+
 
 
          var INSNO = "INSNO";
@@ -4497,7 +4497,7 @@ var nullVlue = $("#CouserFinder").val();
 var disPlanCheck = $('#discountPlan option:selected').val();
 var getFsCourseSelected = $("#fsCourseSet option:selected").val();
 if(disPlanCheck == "special"){
-	  
+
 	 $("#RG_Dis_Comment").addClass("errorInput");
         var disCommentRestriced = $("#RG_Dis_Comment").val();
 
@@ -4505,9 +4505,9 @@ if(disPlanCheck == "special"){
 	 if(disCommentRestriced == "Please enter a comment!"){
         alert("Please enter a comment!");
          return;
-			 
+
 	}
-	 
+
 }
 
 		if(getFsCourseSelected == " " ){
@@ -4517,18 +4517,18 @@ if(disPlanCheck == "special"){
 		}
 
 
-	
+
 	var getEmptyId = $("#RG_Stu_ID").val();
-	
+
 		if(getEmptyId == 0) {
-		
+
 		alert("Please enter an ID Number");
          return;
 	}
-	
+
 	var getEmptyCourse = $("#CouserFinder option:selected").val();
 		if(getEmptyCourse == " ") {
-		
+
 		alert("Please select a course");
          return;
 	}
@@ -4545,7 +4545,7 @@ if(disPlanCheck == "special"){
 	var getEmptyCourse = $("#CouserFinder").val();
 
 		if(getEmptyCourse == " ") {
-		
+
 		alert("Please select a course");
          return;
 	}
@@ -4565,8 +4565,8 @@ if(nullVlue != " "){
     if ($('.fullPayYes').is(':checked')) {
 
         var RG_Final_Fee = parseFloat($("#RG_Total_Fee_Final").val());
-     
-     //set max attr for the cash and credit 
+
+     //set max attr for the cash and credit
 
      $("#PM_Amount_Cash").attr("max", RG_Final_Fee);
 
@@ -4577,7 +4577,7 @@ if(nullVlue != " "){
         $("#PM_Amount").val(parseFloat($(".1INS").text())).prop('disabled', true);
         var RG_Final_Fee = $('#RG_Total_Fee').val();
 
-    //set max attr for the cash and credit 
+    //set max attr for the cash and credit
 
      $("#PM_Amount_Cash").attr("max", parseFloat($(".1INS").text()));
 
@@ -4625,7 +4625,7 @@ studentRegisterArray.push({ name: "couponCode", value: couponCode });
 studentRegisterArray.push({ name: "Default_Batch", value: $('#alreadyBatchSorting option:selected').val() });
 
 
-//paid column update 
+//paid column update
 
 var studentInstallmentsArray=[];
 var paidAmount = $('#RG_Total_Paid').val();
@@ -4646,14 +4646,14 @@ $('#installmentsView .info').each(function (index) {
     }
 
 
- studentInstallmentsArray.push(index + 1, amount , SI_Due_Date, paying);   
+ studentInstallmentsArray.push(index + 1, amount , SI_Due_Date, paying);
 });
 
 //end
 
 
 	 studentRegisterArray.push({ name : "installments", value: studentInstallmentsArray });
-		
+
             var studentSubjectsArray=[];
             var selectesSubjectsRecodes = $("#selectesSubjectsRecodes").find("tr").length;
             var realSubjectsSet = selectesSubjectsRecodes - 1;
@@ -4663,13 +4663,13 @@ $('#installmentsView .info').each(function (index) {
                 var SS_Batch_No = $("#selectesSubjectsRecodes tr:nth-child(" + countSet + ") td:last").text();
 
  studentSubjectsArray.push(SS_Batch_No,SS_Subject);
-    
+
 
             }
 
             studentRegisterArray.push({ name : "subjects", value: studentSubjectsArray });
 
-    
+
 
     $.ajax({
 
@@ -4677,7 +4677,7 @@ $('#installmentsView .info').each(function (index) {
         type: "GET",
         async: false,
         beforeSend: function () {
-         
+
      //saving........
 
    $("#mainAlertInfoSelected").html(" Your registration data is being saving...Please wait.<br><div class='progress progress-striped active'><div class='bar' style='width: 40%;'></div></div>");
@@ -4699,7 +4699,7 @@ $('#installmentsView .info').each(function (index) {
                 $('#mainAlert').removeClass('alert alert-error');
 		$('#mainAlert').addClass('alert alert-success');
 		 $('#mainAlertInfoSelected').html(" This Registration updated successfully");
-                
+
 		}
 
 
@@ -4721,7 +4721,7 @@ alert("you have missed smoething!");
 //User registration form end...........
 
 
-//Edit Registration End 
+//Edit Registration End
 
 
 $(document).ajaxStop(function () {

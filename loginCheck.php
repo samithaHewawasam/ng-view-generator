@@ -16,7 +16,11 @@ $sql = "SELECT * FROM `system_users` WHERE `Sys_U_Username` =? AND `Sys_U_Passwo
 $stmt = $esoftConfig->prepare($sql);
 $stmt->execute(array($username,md5($password)));
 $authentication  = $stmt->fetchALL(PDO::FETCH_ASSOC);
-$_SESSION['branchCode'] = $authentication[0]["Sys_U_Branch"];
+
+$getDb = explode('_', DATABASE);
+$branchCode = explode('-', $db[1]);
+
+$_SESSION['branchCode'] = strtoupper($branchCode[0]."/".$branchCode[1]);
 $_SESSION['Sys_U_Name'] = $authentication[0]["Sys_U_Name"];
 $_SESSION['Sys_U_AccessLevel']=$authentication[0]["Sys_U_AccessLevel"];
 $count = $stmt->rowCount();
