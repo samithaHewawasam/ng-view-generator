@@ -18,7 +18,7 @@ $stmt->execute(array($username,md5($password)));
 $authentication  = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
 $getDb = explode('_', DATABASE);
-$branchCode = explode('-', $db[1]);
+$branchCode = explode('-', $getDb[1]);
 
 $_SESSION['branchCode'] = strtoupper($branchCode[0]."/".$branchCode[1]);
 $_SESSION['Sys_U_Name'] = $authentication[0]["Sys_U_Name"];
